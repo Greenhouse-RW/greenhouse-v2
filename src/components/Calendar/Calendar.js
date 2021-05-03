@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import "./SidebarCalendar";
 import "./Calendar.css";
 
 let oneDay = 60 * 60 * 24 * 1000;
