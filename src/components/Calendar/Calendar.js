@@ -10,12 +10,6 @@ let todayTimestamp =
 let inputRef = React.createRef();
 
 export default class MyDatePicker extends Component {
-  // state = {
-  //   getMonthDetails: [],
-  //   seen: true,
-  //   index: -1,
-  //   showDatePicker: true,
-  // };
 
   constructor() {
     super();
