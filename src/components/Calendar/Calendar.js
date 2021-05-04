@@ -11,7 +11,6 @@ let todayTimestamp =
 let inputRef = React.createRef();
 
 export default class MyDatePicker extends Component {
-
   constructor() {
     super();
     let date = new Date();
@@ -270,9 +269,8 @@ export default class MyDatePicker extends Component {
 
   render() {
     return (
-      
-      <div className="MyDatePicker">
-        <SidebarCalendar/>
+      <div className="MyDatePicker justify-center items-center pt-14">
+        {/* <SidebarCalendar/> */}
         {this.state.showDatePicker ? (
           <div className="mdp-container">
             <div className="mdpc-head">
@@ -311,11 +309,9 @@ export default class MyDatePicker extends Component {
         ) : (
           ""
         )}
-        
       </div>
     );
   }
 }
-
 
 // export default Calendar;
