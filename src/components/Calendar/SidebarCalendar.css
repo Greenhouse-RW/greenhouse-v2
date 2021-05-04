@@ -1,3 +1,5 @@
-h2{
-    float: left;
+.MySideCale{
+    display: flex;
+    background-color:#eee;
+    padding: 25px;
 }

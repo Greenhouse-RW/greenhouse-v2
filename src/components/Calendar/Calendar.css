@@ -1,4 +1,5 @@
 .MyDatePicker {
+  display: flex;
     float: right;
     position: relative;
     max-width: 75%;
@@ -41,26 +42,6 @@
     box-sizing: border-box;
     position: relative;
   }
-  
-  /* .mdpch-button:nth-child(n + 2) {
-    /* float: left !important; 
-    margin-top: 10em;
-  } */
-  
-  /* .button1 {
-    float: left;
-  } */
-  /* .button2 {
-    float: left;
-  }
-  } */
-  /* .button4,
-  .button3 {
-    float: right !important;
-  } */
-  /* .mdpch-button:nth-child(3) {
-    float: left;
-  } */
   
   .button3 {
     margin-left: 2.7em;

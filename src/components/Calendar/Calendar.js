@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import "./SidebarCalendar";
+import SidebarCalendar from "./SidebarCalendar";
 import "./Calendar.css";
 
 let oneDay = 60 * 60 * 24 * 1000;
@@ -270,14 +270,9 @@ export default class MyDatePicker extends Component {
 
   render() {
     return (
+      
       <div className="MyDatePicker">
-        {/* <div className="mdp-input" onClick={() => this.showDatePicker(true)}>
-          <input
-            type="date"
-            onChange={this.updateDateFromInput}
-            ref={inputRef}
-          />
-        </div> */}
+        <SidebarCalendar/>
         {this.state.showDatePicker ? (
           <div className="mdp-container">
             <div className="mdpc-head">
@@ -316,6 +311,7 @@ export default class MyDatePicker extends Component {
         ) : (
           ""
         )}
+        
       </div>
     );
   }
