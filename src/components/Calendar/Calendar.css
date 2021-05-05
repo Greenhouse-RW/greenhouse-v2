@@ -257,24 +257,28 @@
 /**** For desktop ****/
 @media only screen and (min-width: 768px) {
   .mdp-container {
-    width: 70%;
+    width: 100%;
     float: right;
     margin-right: 8em;
   }
   .cch-name {
-    font-size: 18px;
+    font-size: 20px;
   }
   .mdpch-container {
-    left: 40%;
-    top: 5%;
+    left: 38%;
+    top: 3%;
   }
   .mdpc-head {
     margin-top: 1em;
     margin-left: 5em;
   }
-  .button3 {
+  .button3{
     margin-right: 10em;
+    bottom:5px;
   }
+.button4{
+bottom: 5px;
+}
   .button3,
   .button4 {
     float: right !important;
