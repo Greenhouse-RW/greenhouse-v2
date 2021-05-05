@@ -15,13 +15,14 @@
   box-shadow: rgba(80, 77, 77, 0.2);
   background: rgb(255, 255, 255);
   width: 100%;
+  box-shadow: 1px 0px 3px 0px rgba(26, 12, 12, 0.39);
   flex: 1;
 }
 
 .mdpc-head {
   float: left;
   width: 100%;
-  height: 110px;
+  height: 103px;
 }
 .mdpc-body {
   float: left;
