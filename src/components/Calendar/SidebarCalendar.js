@@ -9,40 +9,40 @@ export default function SidebarCalendar() {
       <ul className="sidebardata text-gray-50 text-lg">
         <li className="flex">
           {" "}
-          <li>Temperature</li> <li className="number1 bg-gray">34</li>{" "}
-          <li>67</li> <p>^C</p>{" "}
+          <li className="pb-5">Temperature</li> <li className="number1">34</li>{" "}
+          <li>67</li> <p className="">&#176;C</p>{" "}
         </li>
-        <br></br>
+    
         <li className="flex">
           {" "}
           <li>Temperature</li> <li>34</li> <li>67</li> <p>^C</p>{" "}
         </li>
-        <br></br>
+      
         <li className="flex">
           {" "}
           <li>Temperature</li> <li>34</li> <li>67</li> <p>^C</p>{" "}
         </li>
-        <br></br>
+      
         <li className="flex">
           {" "}
           <li>Temperature</li> <li>34</li> <li>67</li> <p>^C</p>{" "}
         </li>
-        <br></br>
+       
         <li className="flex">
           {" "}
           <li>Temperature</li> <li>34</li> <li>67</li> <p>^C</p>{" "}
         </li>
-        <br></br>
+      
         <li className="flex">
           {" "}
           <li>Temperature</li> <li>34</li> <li>67</li> <p>^C</p>{" "}
         </li>
-        <br></br>
+       
         <li className="flex">
           {" "}
           <li>Temperature</li> <li>34</li> <li>67</li> <p>^C</p>{" "}
         </li>{" "}
-        <br></br>
+       
       </ul>
     </div>
   );
