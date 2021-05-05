@@ -1,24 +1,22 @@
-import './App.css';
-import React from 'react';
-import Navbar from './components/Navbar';
-import Calendar from './components/Calendar/Calendar';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import "./App.css";
+import React from "react";
+import Navbar from "./components/Navbar";
+import Calendar from "./components/Calendar/Calendar";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Main from "./components/Calendar/Main";
 
 function App() {
   return (
-    <div className="wrapper">
+    <div className="wrapper relative">
       <BrowserRouter>
-      <Navbar/>
+        <Navbar />
         <Switch>
-        <Route path="/calendar">
-            <Calendar />
+          <Route path="/calendar">
+            <Main />
           </Route>
-          <Route path="/">
-          </Route>
-         
+          <Route path="/"></Route>
         </Switch>
       </BrowserRouter>
-
     </div>
   );
 }
