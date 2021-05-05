@@ -1,11 +1,14 @@
 .MySideCale {
-  background-color: #30b186b6;
+  font-family: 'Inter', sans-serif;
+  background-color: #14bd84;
   color: rgba(51, 47, 47, 0.753);
-  /* box-shadow: 10px 0px 70px rgba(80, 77, 77, 0.2); */
 }
 .sidebardata {
-  padding: 1em 5em 0 2em;
+  padding:2rem 6rem 0rem 4rem;
 }
 .number1 {
-  box-shadow: 10px 0px 70px rgba(80, 77, 77, 0.2);
+  box-shadow: inset 1px 0px 3px 0px rgba(26, 12, 12, 0.39);
+}
+.recorded{
+  padding:0 6rem 0rem 4rem;
 }
