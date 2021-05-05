@@ -9,42 +9,42 @@ export default function SidebarCalendar() {
       <ul className="sidebardata">
         <li className="flex  text-white text-lg">
           {" "}
-          <li className="pb-5">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
+          <li className="pb-6">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
  <p>&#176;C</p>{" "}
         </li>
     
         <li className="flex  text-white text-lg">
           {" "}
-          <li className="pb-5">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
+          <li className="pb-6">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
  <p>&#176;C</p>{" "}
         </li>
 
         <li className="flex  text-white text-lg">
           {" "}
-          <li className="pb-5">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
+          <li className="pb-6">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
  <p>&#176;C</p>{" "}
         </li>
 
         <li className="flex  text-white text-lg">
           {" "}
-          <li className="pb-5">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
+          <li className="pb-6">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
  <p>&#176;C</p>{" "}
         </li>
         <li className="flex  text-white text-lg">
           {" "}
-          <li className="pb-5">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
- <p>&#176;C</p>{" "}
-        </li>
-
-        <li className="flex  text-white text-lg">
-          {" "}
-          <li className="pb-5">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
+          <li className="pb-6">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
  <p>&#176;C</p>{" "}
         </li>
 
         <li className="flex  text-white text-lg">
           {" "}
-          <li className="pb-5">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
+          <li className="pb-6">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
+ <p>&#176;C</p>{" "}
+        </li>
+
+        <li className="flex  text-white text-lg">
+          {" "}
+          <li className="pb-6">Temperature</li> <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3">34.5</li>{" "}
  <p>&#176;C</p>{" "}
         </li>
 
