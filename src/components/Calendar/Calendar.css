@@ -1,11 +1,8 @@
 .MyDatePicker {
   display: flex;
-  /* background-color: #14bd84; */
-  /* float: right; */
   position: relative;
 
   max-width: 70%;
-  /* max-height: 100%; */
   left: 30%;
 }
 .MyDatePicker * {

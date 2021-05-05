@@ -1,10 +1,9 @@
 .MySideCale {
   background-color: #30b186b6;
   color: rgba(51, 47, 47, 0.753);
-  /* box-shadow: 10px 0px 70px rgba(80, 77, 77, 0.2); */
 }
 .sidebardata {
-  padding: 1em 5em 0 2em;
+  padding: 1em 8em 0 2em;
 }
 .number1 {
   box-shadow: 10px 0px 70px rgba(80, 77, 77, 0.2);
