@@ -1,7 +1,6 @@
 .MyDatePicker {
   display: flex;
   position: relative;
-  
   max-width: 70%;
   left: 30%;
 }
@@ -15,7 +14,7 @@
   position: relative;
   box-shadow: rgba(80, 77, 77, 0.2);
   background: rgb(255, 255, 255);
-  /* height: 100vh; */
+  height: 100vh;
   width: 100%;
   flex: 1;
 }
