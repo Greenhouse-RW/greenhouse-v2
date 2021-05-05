@@ -211,7 +211,7 @@
   height: 100%;
   font-size: 15vh;
   font-weight: 300;
-  color: #14bd84;
+  color: #bd6e14;
   text-align: center;
 }
 .cdc-day span {
@@ -262,7 +262,7 @@
     margin-right: 8em;
   }
   .cch-name {
-    font-size: 20px;
+    font-size: 19px;
   }
   .mdpch-container {
     left: 38%;
