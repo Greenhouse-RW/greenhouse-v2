@@ -13,7 +13,8 @@
 
 .nav-menu {
   background-color: #fff;
-  /* box-shadow:1px 0px #888888; */
+  font-family: 'Inter', sans-serif;
+  box-shadow:1px 0px 3px 0px rgba(26, 12, 12, 0.39);
   width: 250px;
   height: 100vh;
   display: flex;
