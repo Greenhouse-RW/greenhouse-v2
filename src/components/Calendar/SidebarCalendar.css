@@ -3,11 +3,11 @@
   color: rgba(51, 47, 47, 0.753);
 }
 .sidebardata {
-  padding: 1em 8em 0 2em;
+  padding:2rem 6rem 0rem 4rem;
 }
 .number1 {
-  box-shadow: 10px 0px 80px rgba(204, 25, 25, 0.2);
-  margin-left:10px;
-  margin-right: 10px;
-  border: 66px;
+  box-shadow: 1px 0px 2px 0px rgba(26, 12, 12, 0.39);
+}
+.recorded{
+  padding:0 6rem 0rem 4rem;
 }

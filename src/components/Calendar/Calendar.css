@@ -1,7 +1,7 @@
 .MyDatePicker {
   display: flex;
   position: relative;
-
+  
   max-width: 70%;
   left: 30%;
 }
@@ -13,7 +13,7 @@
 
 .mdp-container {
   position: relative;
-  /* box-shadow: 10px 10px 40px rgba(80, 77, 77, 0.2); */
+  box-shadow: rgba(80, 77, 77, 0.2);
   background: rgb(255, 255, 255);
   /* height: 100vh; */
   width: 100%;
