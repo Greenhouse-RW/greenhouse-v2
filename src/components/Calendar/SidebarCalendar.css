@@ -10,7 +10,8 @@
   padding: 2rem 0 0rem 0;
 }
 .number1 {
-  box-shadow: inset 1px 0px 3px 0px rgba(26, 12, 12, 0.39);
+  /* box-shadow: inset 1px 0px 3px 0px rgba(26, 12, 12, 0.39); */
+  box-shadow: rgba(0, 0, 0, 0.144) 0px 1px 3px;
 }
 .recorded {
   padding: 0 6rem 0rem 4rem;
@@ -34,7 +35,7 @@
 
 /* Handle */
 .MySideCale::-webkit-scrollbar-thumb {
-  background: #30b186ab;
+  background: #30b18683;
   border-radius: 10px;
 }
 
