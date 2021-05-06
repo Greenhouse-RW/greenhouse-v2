@@ -1,14 +1,48 @@
 .MySideCale {
-  font-family: 'Inter', sans-serif;
-  background-color: #14bd84;
+  /* font-family: "Inter", sans-serif; */
+  background-color: #1a825cc2;
+  /* background-image: url(../../assets/images/greenpic.png); */
+  background-size: cover;
   color: rgba(51, 47, 47, 0.753);
+  width: 30%;
 }
 .sidebardata {
-  padding:2rem 6rem 0rem 4rem;
+  padding: 2rem 0 0rem 0;
 }
 .number1 {
   box-shadow: inset 1px 0px 3px 0px rgba(26, 12, 12, 0.39);
 }
-.recorded{
-  padding:0 6rem 0rem 4rem;
+.recorded {
+  padding: 0 6rem 0rem 4rem;
 }
+
+.img-cover {
+  opacity: 0.3;
+  width: 30%;
+}
+
+/* width */
+.MySideCale::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.MySideCale::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #30b18665;
+  border-radius: 5px;
+}
+
+/* Handle */
+.MySideCale::-webkit-scrollbar-thumb {
+  background: #30b186ab;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.MySideCale::-webkit-scrollbar-thumb:hover {
+  background: #30b186c2;
+}
+/* 
+.img-cover {
+  background-image: url(../../assets/images/greenpic.png);
+} */
