@@ -8,13 +8,13 @@
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
-  background:none;
+  background: none;
 }
 
 .nav-menu {
   background-color: #fff;
-  font-family: 'Inter', sans-serif;
-  box-shadow:1px 0px 3px 0px rgba(26, 12, 12, 0.39);
+  font-family: "Inter", sans-serif;
+  box-shadow: 1px 0px 3px 0px rgba(26, 12, 12, 0.39);
   width: 250px;
   height: 100vh;
   display: flex;
