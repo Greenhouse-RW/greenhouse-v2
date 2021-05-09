@@ -12,6 +12,7 @@
 .number1 {
   /* box-shadow: inset 1px 0px 3px 0px rgba(26, 12, 12, 0.39); */
   box-shadow: rgba(0, 0, 0, 0.144) 0px 1px 3px;
+  cursor: pointer;
 }
 .recorded {
   padding: 0 6rem 0rem 4rem;
