@@ -5,6 +5,7 @@ import Calendar from "./components/Calendar/Calendar";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Main from "./components/Calendar/Main";
 import { Data } from "./components/EnvironmentData/Data";
+import Signin from "./components/Signin/Signin";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
+        <Route path="/signin">
+          <Signin  />
+          </Route>
           <Route path="/calendar">
             <Main />
           </Route>
