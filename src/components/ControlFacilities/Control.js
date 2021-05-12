@@ -3,7 +3,7 @@ import React from 'react'
 export const Control = () => {
     return (
         <div className="MySideCale h-screen pt-20 fixed">
-      <h1 className="recorded text-2xl text-white">Recorded Values.</h1>
+      <h1 className="recorded text-2xl text-white">RECORDED VALUES.</h1>
 
       <ul className="sidebardata">
         <li className="flex  text-white text-lg">
