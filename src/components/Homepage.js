@@ -10,7 +10,7 @@ import rightArrow from '../images/right-arrow.svg';
 import tom from '../images/tomatoes.jpg';
 const Homepage = () => {
     return (
-        <div className="container">
+        <div className="container body">
           
   {/* ########################################################################## */}
   <div className="session1">
