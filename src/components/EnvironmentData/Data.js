@@ -2,9 +2,9 @@ import React from 'react'
 
 export const Data = () => {
     return (
-        <div className=" h-screen pt-24 fixed overflow-auto">
-        <h1 className="recorded text-xl text-black text-center">
-          Recorded Values
+        <div className="  pl-64 pt-20 fixed overflow-auto">
+        <h1 className="text-xl text-black text-center font-bold">
+          ENVIORNMENT DATA.
         </h1>
 
         <ul className="flex flex-col justify-center items-center">
