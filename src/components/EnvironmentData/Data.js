@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Data = () => {
     return (
-        <div>
+        <div className="grid-row-2">
         <div className="  pl-64 pt-16 fixed overflow-auto">
         <h1 className="text-xl text-black text-center font-bold pb-6">
           ENVIORNMENT DATA.
@@ -74,8 +74,8 @@ export const Data = () => {
       </div>
 
       <div>
-      <h1 className="text-xl text-black text-center font-bold pb-6">
-          ENVIORNMENT DATA.
+      <h1 className="text-xl te">
+          FACILITY CONTROL.
         </h1>
       </div>
 
