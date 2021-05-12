@@ -25,7 +25,7 @@ export const Data = () => {
             <p className="mt-2">&#176;C</p>{" "}
           </li>
 
-          <li className="flex  text-black text-sm">
+          <li className="flex  text-black text-base">
             {" "}
             <li className="pb-6 mt-2">Temperature</li>{" "}
             <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
@@ -34,7 +34,7 @@ export const Data = () => {
           </li>
 
           
-          <li className="flex  text-black text-sm">
+          <li className="flex  text-black text-base">
             {" "}
             <li className="pb-6 mt-2">Soil moisture</li>{" "}
             <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
@@ -43,7 +43,7 @@ export const Data = () => {
           </li>
 
 
-          <li className="flex  text-black text-sm">
+          <li className="flex  text-black text-base">
             {" "}
             <li className="pb-6 mt-2">Carbondioxide</li>{" "}
             <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
@@ -51,7 +51,7 @@ export const Data = () => {
             <p className="mt-2">&#176;C</p>{" "}
           </li>
         
-          <li className="flex  text-black text-sm">
+          <li className="flex  text-black text-base">
             {" "}
             <li className="pb-6 mt-2">Potential of H2</li>{" "}
             <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
@@ -60,7 +60,7 @@ export const Data = () => {
           </li>
 
 
-          <li className="flex  text-black text-sm">
+          <li className="flex  text-black text-base">
             {" "}
             <li className="pb-6 mt-2">Soil temperature</li>{" "}
             <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
