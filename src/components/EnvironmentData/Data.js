@@ -69,15 +69,9 @@ export const Data = () => {
             <p className="mt-2">&#176;C</p>{" "}
           </li>
         
-         
         </ul>
       </div>
 
-      <div>
-      <h1 className="text-xl te">
-          FACILITY CONTROL.
-        </h1>
-      </div>
 
       </div>
     )
