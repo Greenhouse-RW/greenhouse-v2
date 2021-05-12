@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   background-color: black;
   font-family: 'Inter';
@@ -53,6 +54,10 @@ body{
   float:right;
   margin-top: -20em; */
 
+=======
+body {
+  font-family: "Nunito", sans-serif;
+>>>>>>> 62ade0ded2a5c29c551c51c1742c0a8ea851703f
 }
 .street-data{
   display: flex;
