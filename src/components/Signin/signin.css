@@ -1,44 +1,41 @@
- 
 /* .signinform {
     font-family: 'Inter', sans-serif;
     
   } */
-   
- 
-  
-  .signinform h1{
-    margin-top:1em;
-    margin-bottom:1em;
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 39px;
-    color: rgba(6, 111, 73, 0.99);
-  }
-  
-  .signinform p,a{
+
+.signinform h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 39px;
+  color: rgba(6, 111, 73, 0.99);
+}
+
+.signinform p,
+a {
   /* margin-top:2em;
   margin-left:9em; */
-  font-family:Nunito;
+  font-family: Nunito;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.57);
-  
-  }
-  
-  .signinform .link{
-  margin-top:2em;
-  margin-left:9em;
-  }
+}
 
-  #lastP{
-      margin-left:2em;
-  }
-  .signinform button{
+.signinform .link {
+  margin-top: 2em;
+  margin-left: 9em;
+}
+
+#lastP {
+  margin-left: 2em;
+}
+.signinform button {
   width: 180px;
   height: 45px;
-  border: 1px solid  rgba(79, 160, 131, 0.99);;
+  border: 1px solid rgba(79, 160, 131, 0.99);
   background: rgba(79, 160, 131, 0.99);
   border-radius: 10px;
   font-family: Nunito;
@@ -46,190 +43,168 @@
   font-weight: normal;
   font-size: 14px;
   color: rgba(255, 250, 250, 0.85);
-  margin-top:2em;
-  margin-bottom:2em;
-  margin-left:14em;
-  }
-  
-  .signinform input{
-    border:0px ;
-    width: 390px;
-    height: 40px;
-    background:rgba(72, 129, 108, 0.28);;
-    margin-left:11em;
-    margin-top:2em;
-    padding: 5px 2px 5px 25px;
-    outline: 0;
-    font-family:  Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.57);
-  
-  }
-  .signinform #left{
-    float:left;
-    width: 40%;
-    /* height: 400px; */
-    text-align:center;
-    margin-top:1em;
-    margin-left:1em;
-    font-size:30px;
-  
-  }
-  .signinform #right{
-    position: relative;
-    text-align: center;
-    float:right;
-    width: 38%;
-    /* height: 500px; */
-    background: #1a825cc2;
-    
-  }
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 14em;
+}
 
- 
-  .signinform img{
-      width:1005px;
-  }
-  .signinform .green{
+.signinform input {
+  border: 0px;
+  width: 390px;
+  height: 40px;
+  background: rgba(72, 129, 108, 0.28);
+  margin-left: 11em;
+  margin-top: 2em;
+  padding: 5px 2px 5px 25px;
+  outline: 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.57);
+}
+.signinform #left {
+  float: left;
+  width: 40%;
+  /* height: 400px; */
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 30px;
+}
+.signinform #right {
+  position: relative;
+  text-align: center;
+  float: right;
+  width: 38%;
+  /* height: 500px; */
+  background: #1a825cc2;
+}
 
-    float:right;
-    /* width: 30%; */
-    /* height: 500px;  */
-    opacity: 0.3;
-  
-  } 
-  
-  /* .signinform .logo{
+.signinform img {
+  width: 1005px;
+}
+.signinform .green {
+  float: right;
+  /* width: 30%; */
+  /* height: 500px;  */
+  opacity: 0.3;
+}
+
+/* .signinform .logo{
     height: 50px;
     width:40%;
     float:left;
   } */
-  
-  
-  .signinform .centered {
-    width:400px;
-    position: absolute;
-    top: 45%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-  }
 
-  .signinform .centered button{
-      margin-left:7em;
-      margin-top:4em;
-      /* width:275px;
+.signinform .centered {
+  width: 400px;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.signinform .centered button {
+  margin-left: 7em;
+  margin-top: 4em;
+  /* width:275px;
       padding-right:90px; */
-   
-  }
+}
 
+.signinform h3 {
+  margin-left: 3em;
+  margin-bottom: 2em;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  color: #fffafa;
+  font-size: 28px;
+}
 
-  
-  .signinform h3{
-    margin-left: 3em;
-    margin-bottom:2em;
-    font-family:  Nunito;
-    font-style: normal;
-    font-weight: normal;
-    color: #FFFAFA;
-    font-size:28px;
-  }
-  
-  .signinform .grp{
+.signinform .grp {
   font-family: Nunito;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   color: rgba(255, 250, 250, 0.61);
-  }
-  
-  .signinform .but{
-    opacity:0.6;
-    font-family:  Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: #FFFAFA;
-  }
-  
-  .signinform .but a{
-  font-family:  Nunito;
+}
+
+.signinform .but {
+  opacity: 0.6;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #fffafa;
+}
+
+.signinform .but a {
+  font-family: Nunito;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   color: rgba(255, 250, 250, 0.85);
   text-decoration: none;
+}
+
+@media only screen and (max-width: 290px) {
+  .signinform form {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    height: 500px;
   }
-  
-  
-  /* @media only screen and (max-width: 290px) {
-    .signinform form{
-      margin: 0;
-      padding:0;
-      width: 280px;
-      height:500px;
-    }
-    .signinform #left{
-      margin:0;
-      padding:0;
-    }
-    .signinform #right{
-      display:none;
-    }
-    .signinform button {
-      width: 128px;
-      height: 41px;
-      font-size:17px;
-  
-    }
+  .signinform #left {
+    margin: 0;
+    padding: 0;
   }
-  @media only screen and (max-width: 540px){
-    .signinform form{
-      margin: 0;
-      padding:0;
-      width: 25em;
-    }
-    .signinform #left{
-      margin:0;
-      padding:0;
-    }
-    .signinform #right{
-      display:none;
-    }
-    .signinform button {
-      width: 128px;
-      height: 41px;
-      font-size:17px;
-  
-    }
+  .signinform #right {
+    display: none;
   }
-  
-  @media only screen and (max-width: 800px){
-    .signinform form{
-      margin: 1em;
-      padding:0;
-      margin-top: 6em;
-      width:100%;
-      height: 700px;
-      
-  
-    }
-    .signinform #left{
-      height:700px;
-      font-size: 45px;
-  
-    }
-    .signinform #right{
-      height:700px;
-      font-size: 45px;
-      
-    }
-    .signinform .green{
-      height:700px;
-    }
-  
-  } */
-  
-  
-  
-  
+  .signinform button {
+    width: 128px;
+    height: 41px;
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .signinform form {
+    margin: 0;
+    padding: 0;
+    width: 25em;
+  }
+  .signinform #left {
+    margin: 0;
+    padding: 0;
+  }
+  .signinform #right {
+    display: none;
+  }
+  .signinform button {
+    width: 128px;
+    height: 41px;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .signinform form {
+    margin: 1em;
+    padding: 0;
+    margin-top: 6em;
+    width: 100%;
+    height: 700px;
+  }
+  .signinform #left {
+    height: 700px;
+    font-size: 45px;
+  }
+  .signinform #right {
+    height: 700px;
+    font-size: 45px;
+  }
+  .signinform .green {
+    height: 700px;
+  }
+}
