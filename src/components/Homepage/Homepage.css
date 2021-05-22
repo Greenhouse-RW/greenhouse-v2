@@ -7,8 +7,10 @@ body{
     flex-direction: row;
   } */
 .session2{
-    background-color:rgb(1,15,10) ;
     position:absolute;
+    margin-left: 82em;
+    display: flex !important;
+    flex-direction: column !important;
     /* width: 300px; */
     /* margin-top: 2em; */
 }
@@ -59,6 +61,12 @@ body{
   .street-info{
     display: flex;
     flex-direction: row;
+
+  }
+  .s2_container{
+    background-color:rgb(1,15,10) ;
+    margin-top: 6em;
+
   }
   /*  
     float:right;
@@ -76,3 +84,52 @@ body{
   margin-top: 1em;
   margin-right:-1em;
   } */
+
+  .cam-h1{
+    color: rgb(6,111,73);
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .cam-h3{
+    opacity: 0.5;
+    font-size: 12px;
+
+  }
+  .cam-h2{
+    font-size: 12px;
+
+  }
+  .line{
+    border: 20px solid white;
+
+  }
+  .red-tom{
+    width:378px;
+    height: 275px;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+
+  background: rgba(136, 136, 136, 0.692); 
+  border-radius: 5px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+  background: #f1f1f1; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(209, 209, 209); 
+}
