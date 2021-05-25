@@ -17,7 +17,7 @@ const Homepage = () => {
         <div className="container flex flex-row">
           
   {/* ########################################################################## */}
-  <div className="session1 w-full mt-10">
+  <div className="session1 w-full mt-7">
                 {/* *********************** */} 
                 <div className="text-white">
                 {/* <img src={menu} alt="menu-icon" className="w-8 ml-8	mt-6"></img> */}
@@ -59,17 +59,17 @@ const Homepage = () => {
                    </div>
                    </div>
  {/* ########################################################################## */}
- <div className="session2   text-xs	w-auto flex">
+ <div className="session2 text-xs w-auto flex">
 
- <div className="s2_container overflow-y-auto h-72">
-                <div className="street-info mt-6 px-2">
-                 <div className="text-white street-data  px-8 ">
+ <div className="s2_container overflow-y-auto h-full">
+                <div className="street-info mt-1 px-2">
+                 <div className="text-white street-data px-8 ">
                 <h1 className="cam-h1 mr-10 mt-2 py-2">Cam 1</h1>
                 <h2 className="cam-h2 py-1 ">VG-PTR-45KLN</h2>
                 <h3 className="cam-h3  ">13:30 SAT 14 JULY</h3>
                  </div>
                  <div>
-                 <img src={tom} alt="street-cam" className="w-44  h-26 "></img>
+                 <img src={tom} alt="street-cam" className="w-44  h-26"></img>
                  </div>
                  {/* <hr className="line"></hr> */}
                  </div>
@@ -114,12 +114,11 @@ const Homepage = () => {
                  </div>
 
 
-
                  </div>
 
 
                  <div>
-                 <img src={red} alt="red" className="red-tom mt-2"></img>
+                 {/* <img src={red} alt="red" className="red-tom mt-2"></img> */}
 
                  </div>
 
