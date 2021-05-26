@@ -8,12 +8,13 @@ import dropDown from '../../images/drop-down-icon.svg';
 import leftArrow from '../../images/left-arrow.svg';
 import rightArrow from '../../images/right-arrow.svg';
 import tom from '../../images/tomatoes.jpg';
-import red from '../../images/red-tomatoes.jpg';
+// import red from '../../images/red-tomatoes.jpg';
 
 import "./Homepage.css";
 
 const Homepage = () => {
     return (
+        <div className="myhome">
         <div className="container flex flex-row">
           
   {/* ########################################################################## */}
@@ -61,7 +62,7 @@ const Homepage = () => {
  {/* ########################################################################## */}
  <div className="session2 text-xs w-auto flex">
 
- <div className="s2_container overflow-y-auto h-full">
+ <div className="s2_container mt-14 overflow-y-auto h-full">
                 <div className="street-info mt-1 px-2">
                  <div className="text-white street-data px-8 ">
                 <h1 className="cam-h1 mr-10 mt-2 py-2">Cam 1</h1>
@@ -131,6 +132,7 @@ const Homepage = () => {
                
 
         </div> 
+        </div>
     )
 }
 

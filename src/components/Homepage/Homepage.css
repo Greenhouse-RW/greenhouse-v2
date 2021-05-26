@@ -1,4 +1,4 @@
-body {
+.myhome {
   background-color: black;
   font-family: "Inter";
 }
@@ -17,7 +17,7 @@ body {
 
 .generalstructure {
   background-color: rgb(1, 15, 10);
-  margin-top: 0.4em;
+  /* margin-top: 0.4em; */
 }
 .subheading {
   display: flex;
@@ -59,7 +59,7 @@ body {
 }
 .s2_container {
   background-color: rgb(1, 15, 10);
-  margin-top: 6em;
+  /* margin-top: 6em; */
 }
 /*  
     float:right;
