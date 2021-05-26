@@ -96,7 +96,7 @@ export const Data = () => {
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Soil moisture</div>
-            <div className="bg-white shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
             34
             </div>
            
@@ -104,7 +104,7 @@ export const Data = () => {
       
           <div className="flex space-x-10 relative">
             <div className="mt-2">Soil temperature</div>
-            <div className="bg-white shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
             34
             </div>
            
@@ -112,7 +112,7 @@ export const Data = () => {
 
           <div className="flex space-x-10 relative">
             <div className="mt-2">Potential of H2</div>
-            <div className="bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
             34
             </div>
           
