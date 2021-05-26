@@ -2,13 +2,11 @@ import React from "react";
 
 export const Data = () => {
   return (
-    <div className="flex w-full space-x-10 flex-wrap">
+    <div className="flex w-full space-x-10 justify-center">
       <div className=" pt-16 mt-5 w-2/5">
-        <h1 className="text-xl text-black font-bold text-center pb-6">
-          ENVIORNMENT DATA.
-        </h1>
+        <h1 className="text-xl text-black font-bold pb-6">ENVIORNMENT DATA.</h1>
 
-        <ul className="flex flex-col ml-24 mt-5 text-center">
+        <ul className="flex flex-col mt-5 text-center">
           <li className="flex  text-black text-base">
             {" "}
             <li className="pb-6 mt-2">Humidity</li>{" "}
@@ -66,11 +64,11 @@ export const Data = () => {
           </li>
         </ul>
       </div>
-      <div className="mt-5 w-2/5 text-center pt-16 mt-5 relative">
+      <div className="pt-16 mt-5 w-2/5 text-center relative">
         <div className="text-xl text-black font-bold text-center  pb-6 ">
           Facility control
         </div>
-        <div className="ml-10 flex flex-col mt-5 space-y-10">
+        <div className="ml-10 flex flex-col mt-5 space-y-10 relative">
           <div className="flex space-x-10 relative">
             <div className="mt-2">Heating Fan</div>
             <div className="bg-dgreen shadow-sm flex justify-center align-center py-2.5 px-7 h-10 text-sm text-white absolute left-32">
