@@ -145,9 +145,9 @@ export const Data = () => {
             <button className="hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 px-7 h-10 text-sm text-white absolute left-32">
               ON
             </button>
-            <div className="hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center text-sm align-center py-2.5 px-7 h-10 absolute right-24">
+            <button className="hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center text-sm align-center py-2.5 px-7 h-10 absolute right-24">
               OFF
-            </div>
+            </button>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Cooling Fan</div>
