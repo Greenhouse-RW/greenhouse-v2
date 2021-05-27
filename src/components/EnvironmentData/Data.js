@@ -94,37 +94,37 @@ export const Data = () => {
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Cooling Fan</div>
-            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
               ON
             </button>
-            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest bg-gray-700 text-white font-bold flex shadow-sm justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest bg-gray-700 text-white font-bold flex shadow-lg justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
               OFF
             </button>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Window</div>
-            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
               ON
             </button>
-            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-sm justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
               OFF
             </button>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Watering System</div>
-            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
               ON
             </button>
-            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-sm justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
               OFF
             </button>
           </div>
           <div className="led flex space-x-10 relative">
             <div className="mt-2">LED Lamp</div>
-            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
               ON
             </button>
-            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-sm justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
               OFF
             </button>
           </div>
