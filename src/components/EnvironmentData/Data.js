@@ -7,115 +7,73 @@ export const Data = () => {
       <div className="text-xl text-black font-bold text-center  pb-6 ">
          ENVIRONMENT DATA
         </div>
-        {/* <ul className="flex flex-col mt-5 text-center">
-          <li className="flex  text-black text-base">
-            {" "}
-            <li className="pb-6 mt-2">Humidity</li>{" "}
-            <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <li className="number1 ml-2 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <p className="mt-2">&#176;C</p>{" "}
-          </li>
 
-          <li className="flex  text-black text-base">
-            {" "}
-            <li className="pb-6 mt-2">Illumination</li>{" "}
-            <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <li className="number1 ml-2 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <p className="mt-2">&#176;C</p>{" "}
-          </li>
-
-          <li className="flex  text-black text-base">
-            {" "}
-            <li className="pb-6 mt-2">Temperature</li>{" "}
-            <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <li className="number1 ml-2 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <p className="mt-2">&#176;C</p>{" "}
-          </li>
-
-          <li className="flex  text-black text-base">
-            {" "}
-            <li className="pb-6 mt-2">Soil moisture</li>{" "}
-            <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <li className="number1 ml-2 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <p className="mt-2">&#176;C</p>{" "}
-          </li>
-
-          <li className="flex  text-black text-base">
-            {" "}
-            <li className="pb-6 mt-2">Carbondioxide</li>{" "}
-            <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <li className="number1 ml-2 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <p className="mt-2">&#176;C</p>{" "}
-          </li>
-
-          <li className="flex  text-black text-base">
-            {" "}
-            <li className="pb-6 mt-2">Potential of H2</li>{" "}
-            <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <li className="number1 ml-2 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <p className="mt-2">&#176;C</p>{" "}
-          </li>
-
-          <li className="flex  text-black text-base">
-            {" "}
-            <li className="pb-6 mt-2">Soil temperature</li>{" "}
-            <li className="number1 ml-5 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <li className="number1 ml-2 mr-4 mb-6 pl-3 pr-3 py-2">34.5</li>{" "}
-            <p className="mt-2">&#176;C</p>{" "}
-          </li>
-        </ul> */}
-
-<div className="ml-10 flex flex-col space-y-6 relative">
+<div className="ml-28 flex flex-col space-y-6 relative">
           <div className="flex space-x-10 relative">
             <div className="mt-2">Temperature</div>
             <div className="bg-white shadow flex justify-center align-center py-2 px-7 h-10 text-sm text-black absolute left-32">
               34
             </div>
-           
+            <div className="flex  text-md h-10 absolute left-56 top-4">
+            &#176;C
+            </div>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Illumination</div>
             <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-black absolute left-32">
             34
             </div>
-         
+            <div className="flex  text-md h-10 absolute left-56 top-4">
+            lx
+            </div>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Humidity</div>
             <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-black absolute left-32">
             34
             </div>
-         
+            <div className="flex  text-md h-10 absolute left-56 top-4">
+            %
+            </div>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Carbondioxide</div>
             <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-black absolute left-32">
             34
             </div>
-           
+            <div className="flex  text-md h-10 absolute left-56 top-4">
+            &#176;C
+            </div>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Soil moisture</div>
-            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-black absolute left-32">
             34
             </div>
-           
+            <div className="flex  text-md h-10 absolute left-56 top-4">
+            %
+            </div>
           </div>
       
           <div className="flex space-x-10 relative">
             <div className="mt-2">Soil temperature</div>
-            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-black absolute left-32">
             34
             </div>
-           
+            <div className="flex  text-md h-10 absolute left-56 top-4">
+            &#176;C
+            </div>
           </div>
 
           <div className="flex space-x-10 relative">
             <div className="mt-2">Potential of H2</div>
-            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <div className="bg-white shadow flex justify-center align-center py-2.5 text-sm px-7 h-10 text-black absolute left-32">
             34
             </div>
-          
+
+            <div className="flex  text-md h-10 absolute left-56 top-4">
+            ψ
+            </div>
           </div>
         </div>
 
@@ -127,48 +85,48 @@ export const Data = () => {
         <div className="ml-10 flex flex-col mt-5 space-y-12 relative">
           <div className="flex space-x-10 relative">
             <div className="mt-2">Heating Fan</div>
-            <div className="bg-dgreen shadow-sm flex justify-center align-center py-2.5 px-7 h-10 text-sm text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 px-7 h-10 text-sm text-white absolute left-32">
               ON
-            </div>
-            <div className="flex shadow-sm justify-center text-sm align-center py-2.5 px-7 h-10 absolute right-24">
+            </button>
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center text-sm align-center py-2.5 px-7 h-10 absolute right-24">
               OFF
-            </div>
+            </button>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Cooling Fan</div>
-            <div className="bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
               ON
-            </div>
-            <div className="flex shadow-sm justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
+            </button>
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest bg-gray-700 text-white font-bold flex shadow-lg justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
               OFF
-            </div>
+            </button>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Window</div>
-            <div className="bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
               ON
-            </div>
-            <div className="flex shadow-sm justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
+            </button>
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
               OFF
-            </div>
+            </button>
           </div>
           <div className="flex space-x-10 relative">
             <div className="mt-2">Watering System</div>
-            <div className="bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
               ON
-            </div>
-            <div className="flex shadow-sm justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
+            </button>
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
               OFF
-            </div>
+            </button>
           </div>
-          <div className="flex space-x-10 relative">
+          <div className="led flex space-x-10 relative">
             <div className="mt-2">LED Lamp</div>
-            <div className="bg-dgreen shadow-sm flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
+            <button className="focus:outline-none hover:bg-green-700  rounded-md tracking-widest font-bold bg-dgreen shadow-lg flex justify-center align-center py-2.5 text-sm px-7 h-10 text-white absolute left-32">
               ON
-            </div>
-            <div className="flex shadow-sm justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
+            </button>
+            <button className="focus:outline-none hover:bg-gray-800 rounded-md tracking-widest font-bold bg-gray-700 text-white flex shadow-lg justify-center align-center py-2.5 text-sm px-7 h-10 absolute right-24">
               OFF
-            </div>
+            </button>
           </div>
       
         </div>
@@ -176,3 +134,4 @@ export const Data = () => {
     </div>
   );
 };
+
