@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import logo from '../../assets/images/greenlogo.png';
 import './signup.css';
 
 const Signup = () => {
@@ -18,7 +17,6 @@ const Signup = () => {
     return (
     <div className="flex registerForm w-screen h-screen">
             <div className="col-md-4 imgback text-center p-10">
-                {/* <span className="logo"><h4><img src={logo} alt="Greenhouse logo" className="img-fluid w-25 ml-5"/>Green</h4></span> */}
                 <h3 className="font-semibold mb-3">Welcome To Greenhouse</h3>
                 <p>Enter your personal details to <br/> start your journey with us</p>
             </div>
@@ -27,7 +25,7 @@ const Signup = () => {
                 
                 <form className="form-group">
                     <div className="row">
-                        <h1 className="ml-36 font-semibold">Create Account</h1>
+                        <h1 className="md:ml-36 font-semibold">Create Account</h1>
                     </div>
                     {/* social media buttons */}
                     <div className="row svg flex space-x-4  mt-4">
@@ -55,11 +53,11 @@ const Signup = () => {
                         </a>
                     </div>
                     
-                    <div className="row ml-20 mb-6">
-                        <p className="mt-8 ml-48">Or use your email for registration</p>
+                    <div className="row md:ml-20 mb-6">
+                        <p className="mt-8 text-center">Or use your email for registration</p>
                     </div>
                     {/* Username input */}
-                    <div className="row ml-60 mb-3.5">
+                    <div className="row md:ml-44 mb-3.5">
                     <input 
                         className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent"
                         type="text" 
@@ -70,7 +68,7 @@ const Signup = () => {
                         required/>
                     </div>
                     {/* Email input */}
-                    <div className="row ml-60 mb-3.5">
+                    <div className="row md:ml-44 mb-3.5">
                     <input 
                         className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent"
                         type="text" 
@@ -81,7 +79,7 @@ const Signup = () => {
                         required/>
                     </div>
                     {/* Password input */}
-                    <div className="row ml-60 mb-3.5">
+                    <div className="row md:ml-44 mb-3.5">
                     <input 
                         className="ml-40 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                         type="password" 
@@ -92,12 +90,12 @@ const Signup = () => {
                         required/>
                     </div>
                     {/* Submit button */}
-                    <div className="row ml-40">
+                    <div className="row md:ml-40">
                         <button className="btn registerSubmit p-2">SIGN UP</button><br></br>
                     </div>
 
-                    <div className="flex ml-16">
-                        <Link to="/signin" className="text-lg ml-64 cursor-pointer">Already a member</Link>
+                    <div className="flex md:ml-80 ml-12 mt-3">
+                        <Link to="/signin" className="text-lg text-center cursor-pointer">Already a member</Link>
                         <svg className="ml-4 mt-0.5 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg>
                     </div>
                 </form>

@@ -22,12 +22,17 @@
     font-size: 20px;
     color: rgba(255, 250, 250, 0.61);
 }
-@media screen and (max-width: 640px){
-    .registerForm .main-content {width: 90%;}
+@media only screen and (max-width: 600px){
+    .registerForm form input{ 
+        width: 300px!important;
+    }
+    .registerForm .svg{
+        margin-left: 5rem;
+    }
     .registerForm .imgback {display: none;}
+    .registerForm .registerSubmit{ margin: 0.5em 3em!important;}
 }
-@media screen and (min-width: 642px) and (max-width: 800px){
-    .registerForm .main-content {width: 70%;}
+@media only screen and (min-width: 768px) and (max-width:992px) {
     .registerForm .imgback {display: none;}
 }
 .registerForm .row > h1{
@@ -46,18 +51,22 @@
     padding: 0 2em;
 }
 .registerForm form input{
-    background-color: rgba(72, 129, 108, 0.384);
+    background-color: rgba(72, 129, 108, 0.13);
     margin: 0.5em auto;
-    padding: 10px;
-    width: 300px;
+    padding: 10px 20px;
+    width: 450px;
     height: 40px;
     border: 0px solid transparent;
+    color: rgba(0, 0, 0, 0.57);
     outline: none;
-    border-bottom: 1px solid #4FA083;
-    transition: all .5s ease;
+    /* border-bottom: 1px solid #4FA083; */
+    /* transition: all .5s ease; */
+}
+.registerForm form input::placeholder{
+    color: rgba(0, 0, 0, 0.57);
 }
 .registerForm form input:focus{
-    border-radius: 4px;
+    border: 1px solid #066F49;
 }
 .registerForm .registerSubmit{
     transition: all .5s ease;
@@ -66,6 +75,7 @@
     color: #FFF;
     background-color: #4FA083;
     margin: 1.5em 10em;
+    font-weight: 800;
 }
 .registerForm .btn:hover, .registerForm .btn:focus{
     background-color: rgba(79, 160, 132, 0.904);
