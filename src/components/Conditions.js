@@ -1,54 +1,147 @@
-import React from 'react';
-import Button from './Button.js';
-// import './Condition.css';
-import './Condition.css';
+import React from 'react'
+import Button from './Button.js'
 
-function Condition (){
+function Condition() {
 
-       return (
-       
-           <div class="ml-10">
-           <h3 class="ml-3">SET THE VALUE OF PLANT’S BETTER  HEALTH </h3>
-<div class=" grid grid-cols-2 divide-x ">
-<div className="">
-<div><label class="w-10 mr-5">Temperature:</label> <input class="w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/> <Button/></div> 
-<div><label class="w-10 mr-5">Illumination:</label> <input class="  w-16 border-2  border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/> <Button/></div>
- <div><label class="w-10 mr-20">CO2 :</label> <input class="shadow-sm w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/><Button/></div>
-<div><label class="w-10 mr-5">Soil moisture  :</label><input class="shadow-sm w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/><Button/> </div>   
-<div><label class="w-10 mr-20">PH :</label> <input class="shadow-sm w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/> <Button/> </div> 
-<div><label class="w-10 mr-20">EC :</label> <input class="shadow-sm w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/><Button/> </div> 
+    return (
+        <div>
+      <div className="flex w-full space-x-10 justify-center">
+      <div className=" pt-16 mt-5 w-2/5">
+             {/* for row */}
+        <div class = "ml-3" > SET THE VALUE OF PLANT’ S BETTER HEALTH </div>
+
+        <div class = " flex flex-col space-y-6  relative" >
+        
+        <div className = "flex space-x-6 relative mt-24" >
+                <div className = "w-12 mt-2 mr-3" > Temperature: </div>
+                <div> <input class="h-8 ml-5 shadow flex w-16 mt-2"/></div>
+                <div>-</div>
+                <div ><input class = "h-8 shadow flex w-16  mt-2" />  </div>
+                <div><Button/></div>
+        
+            </div>
+            <div className = "flex space-x-6 relative mt-24" >
+              <div className = "w-12 mt-2 mr-3" > Illumination: </div>
+              <div><input class="h-8 ml-5 shadow flex w-16 mt-2  "/> </div>
+              <div>-</div>
+              <div> <input class = "h-8 shadow flex w-16  mt-2" /> </div>
+              <div><Button/></div>
+        
+               </div>
+               <div className = "flex space-x-6 relative mt-24" >
+             <div className = "w-12 mt-2 mr-3" > CO2 : </div>
+             <div><input class="h-8 ml-5 shadow flex w-16 mt-2  "/> </div>
+             <div>-</div>
+             <div> <input class = "h-8 shadow flex w-16  mt-2" /> </div>
+             <div> <Button/></div>
+        
+               </div>
+               <div className = "flex space-x-6 relative mt-24" >
+             <div className = "w-17 mt-2 -m-3" > Soil moisture : </div>
+             <div><input class="h-8 shadow flex w-16 mt-2"/> </div>
+             <div>-</div>
+             <div> <input class = "h-8 shadow flex w-16  mt-2" /> </div>
+             <div><Button/> </div> 
+        
+               </div>
+               <div className = "flex space-x-6 relative mt-24" >
+             <div className = "w-12 mt-2 mr-3" > PH : </div>
+             <div><input class="h-8 ml-5 shadow flex w-16 mt-2 "/> </div>
+             <div>-</div>
+             <div> <input class = "h-8 shadow flex w-16  mt-2" /> </div>
+             <div><Button/></div>
+        
+               </div>
+
+             <div className = "flex space-x-6 relative mt-24" >
+             <div className = "mr-3 w-12 mt-2 " > EC : </div>
+             <div > <input className="h-8 ml-5 shadow flex w-16 mt-2 "/> </div>
+             <div>-</div>
+             <div > <input class = "h-8 shadow flex w-16  mt-2"/></div>
+             <div><Button/></div>
+        
+               </div>
+        
+      
+            
+
 </div>
-
-
-{/* <div>
-<p className="mb-5"><label class="w-10 mr-5">Temperature:</label> <input class="w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/>  C </p>
-<p className="mb-5"><label class="w-10 mr-5">Illumination:</label> <input class="w-16 border-2  border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/> bx</p>
-<p ><label class="w-10 mr-20">CO2 :</label> <input class="shadow-sm w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/> %</p><br/><br/>   
-<p className="-mt-8"><label class="w-10 mr-5">Soil moisture  :</label><input class="shadow-sm w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/> % </p> <br/><br/>  
-<p className="-mt-8" ><label class="w-10 mr-20">PH :</label> <input class="shadow-sm w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/> </p> <br/><br/>
-<p className="-mt-8"><label class="w-10 mr-20">EC :</label> <input class="shadow-sm w-16 border-2 border-black-500"/> - <input class="shadow-sm w-16 border-2 border-black-500"/> m/s </p> 
-
-</div> */}
 </div>
-<div class ="mt-5 mx-64">
+        
+<div className="mt-5 pt-16 w2/5 text-center relative">
+
+        <div class = " flex flex-col space-y-6  relative" >
+            <div className = "flex space-x-6 relative mt-24" >
+                <div className = "w-12 mt-2 mr-8" > Temperature: </div>
+                <div class="h-8 ml-5  shadow flex w-16 mt-2"> </div>
+                <div>-</div>
+                <div class="h-8 shadow flex w-16 mt-2">  </div>
+                <div>C</div>
+        
+            </div>
+            <div className = "flex space-x-6 relative mt-24" >
+              <div className = "w-12 mt-2 mr-8" > Illumination: </div>
+              <div class="h-8 ml-5 shadow flex w-16 mt-2  "> </div>
+              <div>-</div>
+              <div class = "h-8 shadow flex w-16  mt-2" > </div>
+              <div>bx</div>
+        
+               </div>
+               <div className = "flex space-x-6 relative mt-24" >
+             <div className = "w-12 mt-2 mr-8" > CO2 : </div>
+             <div class="h-8 ml-5 shadow flex w-16 mt-2  "> </div>
+             <div>-</div>
+             <div  class = "h-8 shadow flex w-16  mt-2" > </div>
+             <div> %</div>
+        
+               </div>
+               <div className = "flex space-x-6 relative mt-24" >
+             <div className = "w-17 h-8 mt-2 -m-3" > Soil moisture : </div>
+             <div class="h-8 shadow flex w-16 mt-2"> </div>
+             <div>-</div>
+             <div class = "h-8 shadow flex w-16  mt-2" > </div>
+             <div> % </div>
+        
+               </div>
+               <div className = "flex space-x-6 relative mt-24" >
+             <div className = "w-12 mt-2 mr-8" > PH : </div>
+             <div  class="h-8 ml-5 shadow flex w-16 mt-2 "> </div>
+             <div>-</div>
+             <div class = "h-8 shadow flex w-16  mt-2" > </div>
+             <div></div>
+        
+               </div>
+
+             <div className = "flex space-x-6 relative mt-24" >
+             <div className = "mr-8 w-12 mt-2 " > EC : </div>
+             <div className="h-8 ml-5 shadow flex w-16 mt-2 "> </div>
+             <div>-</div>
+             <div class = "h-8 shadow flex w-16  mt-2" > </div>
+             <div> % </div>
+        
+               </div>
+        
+      
+                </div>
+        
+         </div>
+         </div>
+         <div class ="mt-5 ml-96">
 <form action="" method="post">
 <h4 class="my-8">Enter your credentials for sudden information.</h4>
-<input class="w-80 border-2 rounded-xl p-1 px-2" placeholder="Enter your Last Name "/> <br/><br/>
-<input class="w-80 border-2 rounded-xl p-1 px-2" placeholder="Enter your Last Name "/><br/><br/>
-<input class="w-80 border-2  rounded-xl p-1 px-2" placeholder="Enter your phone number"/><br/><br/>
-<input class="w-80 border-2  rounded-xl p-1 px-2" placeholder="Enter your email "/><br/><br/><br/>
+<input class="w-80 h-18 border-2 rounded-xl p-1 px-2" placeholder="Enter your Last Name "/> <br/><br/>
+<input class="w-80 h-18 border-2 rounded-xl p-1 px-2" placeholder="Enter your Last Name "/><br/><br/>
+<input class="w-80 h-18 border-2  rounded-xl p-1 px-2" placeholder="Enter your phone number"/><br/><br/>
+<input class="w-80 h-18 border-2  rounded-xl p-1 px-2" placeholder="Enter your email "/><br/><br/><br/>
 <input type="button" value="Submit" className=" mb-12 mx-24 rounded-xl w-44 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 "/>
 
 </form>
 
     </div>
-               {/* </div>
-               <div className="ml-10 mb-20">
-               <input type="button" value="Submit" className=" submit "/>
 
-               </div> */}
-</div>
-       )
-   }
+
+         </div>
+    )
+}
 
 export default Condition;

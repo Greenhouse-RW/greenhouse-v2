@@ -8,12 +8,13 @@
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
-  background:none;
+  background: none;
 }
 
 .nav-menu {
   background-color: #fff;
-  box-shadow:3px 0px #888888;
+  font-family: "Inter", sans-serif;
+  box-shadow: 1px 0px 3px 0px rgba(26, 12, 12, 0.39);
   width: 250px;
   height: 100vh;
   display: flex;
@@ -40,7 +41,7 @@
 
 .nav-text a {
   text-decoration: none;
-  color: #22201f;
+  color: #575552e0;
   font-size: 18px;
   width: 95%;
   height: 100%;
