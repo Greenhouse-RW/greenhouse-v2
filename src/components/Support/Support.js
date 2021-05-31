@@ -3,7 +3,7 @@ import Faq from "react-faq-component";
 import './support.css';
 
 const data = {
-    title: "FAQ (How it works)",
+    title: "Frequently asked questions.",
     rows: [
         {
             title: "Lorem ipsum dolor sit amet,",
@@ -32,11 +32,20 @@ const data = {
 };
 
 const styles = {
-    // bgColor: 'white',
-    titleTextColor: "blue",
-    rowTitleColor: "blue",
-    // rowContentColor: 'grey',
-    // arrowColor: "red",
+     // bgColor: 'white',
+     titleTextColor: 'blue',
+     titleTextSize: '30px',
+     rowTitleColor: 'blue',
+     // rowTitleTextSize: 'medium',
+     rowContentColor: 'grey',
+     rowContentTextSize: '16px',
+     // rowContentPaddingTop: '10px',
+     rowContentPaddingBottom: '10px',
+     rowContentPaddingLeft: '50px',
+     // rowContentPaddingRight: '150px',
+     // arrowColor: "red",
+     //transitionDuration: "1s",
+     // timingFunc: "ease"
 };
 
 const config = {
