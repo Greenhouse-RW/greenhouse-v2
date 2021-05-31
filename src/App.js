@@ -7,13 +7,25 @@ import Homepage from './components/Homepage/Homepage';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Main from "./components/Calendar/Main";
 import { Data } from "./components/EnvironmentData/Data";
+import Signin from "./components/Signin/Signin";
+import Condition from "../src/components/Conditions"
+import Signup from './components/Signup/signup';
 
 function App() {
   return (
     <div className="wrapper relative">
       <BrowserRouter>
-        <Navbar />
+        <Navbar />   
         <Switch>
+        <Route path="/condition">
+        <Condition/>
+        </Route>
+        <Route path="/signup">
+          <Signup/>
+          </Route>
+        <Route path="/signin">
+          <Signin  />
+          </Route>
           <Route path="/calendar">
             <Main />
           </Route>
