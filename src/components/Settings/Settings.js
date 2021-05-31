@@ -5,16 +5,15 @@ const Settings = () => {
     return (
         <div className="flex justify-center">
             <form className="myform">
+            {/* <h2>Enter your credential for sudden information</h2> */}
             <div class="field">
               <label for="">Full Name</label>
-              <input class="full_name"
-                     type="text"
-                     name="full-name"
-                     value="" />
+              <input type="text" 
+              name="full-name"  />
             </div>
             <div class="field">
               <label for="">Email</label>
-              <input class="full_name"
+              <input
                      type="text"
                      name="full-name" />
             </div>
