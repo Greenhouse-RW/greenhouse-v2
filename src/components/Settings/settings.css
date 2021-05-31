@@ -34,7 +34,7 @@ input {
 .button_left {
   margin-right: 5px;
   background-color: rgba(79, 160, 131, 0.99);
-  border-radius: 10px;
+  border-radius: 3px;
   font-size: 14px;
   color: #fff;
   letter-spacing: 0.5px;
@@ -48,7 +48,7 @@ input {
 .button_right {
   margin-left: 5px;
   background-color: #eaeaea;
-  border-radius: 10px;
+  border-radius: 3px;
   font-size: 14px;
   letter-spacing: 0.3px;
   font-weight: 300;
