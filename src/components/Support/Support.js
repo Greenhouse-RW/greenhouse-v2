@@ -26,7 +26,7 @@ const data = {
  class Support extends Component {
   render() {
     return (
-      <div>
+      <div className="hey">
         <Faq data={data}/>
       </div>
     )
