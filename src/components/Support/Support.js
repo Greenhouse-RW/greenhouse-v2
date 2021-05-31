@@ -1,9 +1,9 @@
-import React from 'react'
+import React,{Component}  from 'react';
 import './support.css';
 import Faq from 'react-faq-component';
 
 const data = {
-  title: "FAQ (How it works)",
+  title: "Frequently asked questions.",
   rows: [
     {
       title: "Lorem ipsum dolor sit amet,",
@@ -23,7 +23,7 @@ const data = {
     }]
 }
 
-export default class Support extends Component {
+ class Support extends Component {
   render() {
     return (
       <div>
@@ -33,3 +33,5 @@ export default class Support extends Component {
   }
 }
 
+
+export default Support
