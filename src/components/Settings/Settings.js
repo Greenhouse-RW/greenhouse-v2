@@ -5,7 +5,7 @@ import { useFileUpload } from "use-file-upload";
 const Settings = () => {
   const [files, selectFiles] = useFileUpload();
   const defaultSrc =
-  "https://www.pngkit.com/png/full/301-3012694_account-user-profile-avatar-comments-fa-user-circle.png";
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-NcYFYo4FUItlxkh1ACEY-HOWjxiv6ROYzg&usqp=CAU";
     return (
         <div className="grid justify-items-center">
 
