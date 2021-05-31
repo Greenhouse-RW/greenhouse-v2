@@ -3,7 +3,6 @@ import './App.css';
 import "./App.css";
 import React from "react";
 import Navbar from "./components/Navbar";
-import Calendar from "./components/Calendar/Calendar";
 import Homepage from './components/Homepage/Homepage';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Main from "./components/Calendar/Main";
@@ -11,6 +10,9 @@ import { Data } from "./components/EnvironmentData/Data";
 import Signin from "./components/Signin/Signin";
 import Condition from "../src/components/Conditions"
 import Signup from './components/Signup/signup';
+import Support from './components/Support/Support';
+import Settings from './components/Settings/Settings'
+
 
 function App() {
   return (
@@ -18,8 +20,14 @@ function App() {
       <BrowserRouter>
         <Navbar />   
         <Switch>
+        <Route path="/settings">
+            <Settings />
+          </Route>
+          <Route path="/support">
+            <Support />
+          </Route>
         <Route path="/condition">
-        <Condition/>
+        <Condition />
         </Route>
         <Route path="/signup">
           <Signup/>
@@ -30,7 +38,7 @@ function App() {
           <Route path="/calendar">
             <Main />
           </Route>
-          <Route path="/reports">
+          <Route path="/control">
             <Data />
           </Route>
           <Route path="/">
