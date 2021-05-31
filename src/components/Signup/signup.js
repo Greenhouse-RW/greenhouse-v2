@@ -15,8 +15,8 @@ const Signup = () => {
     const onChange = e => setRegister({ ...register, [ e.target.name] : e.target.value })
 
     return (
-    <div className="flex registerForm w-screen h-screen">
-            <div className="col-md-4 imgback text-center p-10">
+    <div className="flex registerForm h-screen">
+            <div className="col-md-4 imgback text-center p-20">
                 <h3 className="font-semibold mb-3">Welcome To Greenhouse</h3>
                 <p>Enter your personal details to <br/> start your journey with us</p>
             </div>
