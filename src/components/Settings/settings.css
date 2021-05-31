@@ -33,13 +33,13 @@ input {
 
 .button_left {
   margin-right: 5px;
-  background-color: #6c63ff;
+  background-color: #63ff8a;
   font-size: 14px;
   color: #fff;
   letter-spacing: 0.5px;
   font-weight: 300;
   width: 150px;
-  height: 45px;
+  height: 40px;
   bottom: 20px;
   border: none;
 }
@@ -53,7 +53,7 @@ input {
   color: #7376a3;
   opacity: 0.8;
   width: 150px;
-  height: 45px;
+  height: 40px;
   bottom: 20px;
   border: none;
 }
