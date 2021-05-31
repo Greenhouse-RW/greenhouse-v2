@@ -27,7 +27,7 @@ const data = {
   render() {
     return (
       <div className="hey">
-        <Faq data={data}/>
+        <Faq data={data} />
       </div>
     )
   }
