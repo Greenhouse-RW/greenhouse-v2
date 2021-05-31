@@ -10,6 +10,7 @@ import Main from "./components/Calendar/Main";
 import { Data } from "./components/EnvironmentData/Data";
 import Signin from "./components/Signin/Signin";
 import Condition from "../src/components/Conditions"
+import Signup from './components/Signup/signup';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <Route path="/condition">
         <Condition/>
         </Route>
+        <Route path="/signup">
+          <Signup/>
+          </Route>
         <Route path="/signin">
           <Signin  />
           </Route>
