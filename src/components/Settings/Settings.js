@@ -1,33 +1,26 @@
 import React from 'react'
 import './settings.css';
-import { useFileUpload } from 'use-file-upload'
+import { useFileUpload } from "use-file-upload";
 
 const Settings = () => {
-  const [file, selectFile] = useFileUpload()
+  const [files, selectFiles] = useFileUpload();
+  const defaultSrc =
+  "https://www.pngkit.com/png/full/301-3012694_account-user-profile-avatar-comments-fa-user-circle.png";
     return (
-      
-        <div className=" ml-80 justify-center">
-          <div>
-      <button
-        onClick={() => {
-          // Single File Upload
-          selectFile()
-        }}
+        <div className="grid justify-items-center">
+
+<img className="myimage mt-6" src={files?.source || defaultSrc} alt="preview" />
+      <button className="button_left mt-4"
+        onClick={() =>
+          selectFiles({ accept: "image/*" }, ({ name, size, source, file }) => {
+            console.log("Files Selected", { name, size, source, file });
+          })
+        }
       >
-        Click to Upload
+        Upload Avatar
       </button>
 
-      {file ? (
-        <div>
-          <img src={file.source} alt='preview' />
-          <span> Name: {file.name} </span>
-          <span> Size: {file.size} </span>
-        </div>
-      ) : (
-        <span>No file selected</span>
-      )}
-    </div>
-            <form className="myform">
+            <form className="myform mt-8">
             {/* <h2>Enter your credential for sudden information</h2> */}
             <div class="field">
               <label for="">Full Name</label>
@@ -61,8 +54,8 @@ const Settings = () => {
                      name="full-name" />
             </div>
 
-            <a href="#"><button class="button_left" type="submit" name="button">Save Changes</button></a>
-          <a href="#"><button class="button_right" type="cancel" name="button">Cancel</button></a>
+            <a href="#"><button class="button_left mb-8" type="submit" name="button">Save Changes</button></a>
+          <a href="#"><button class="button_right mb-8" type="cancel" name="button">Cancel</button></a>
             </form>
             
           

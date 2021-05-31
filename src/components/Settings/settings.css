@@ -1,6 +1,11 @@
 .myform {
   width: 40%;
 }
+.myimage {
+  width: 150px;
+  height: 160px;
+  border-radius: 60%;
+}
 label {
   letter-spacing: 0.75px;
   font-size: 1rem;
