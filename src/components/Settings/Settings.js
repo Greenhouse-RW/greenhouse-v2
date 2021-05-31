@@ -6,7 +6,7 @@ const Settings = () => {
   const [file, selectFile] = useFileUpload()
     return (
       
-        <div className="flex justify-center">
+        <div className=" ml-80 justify-center">
           <div>
       <button
         onClick={() => {
