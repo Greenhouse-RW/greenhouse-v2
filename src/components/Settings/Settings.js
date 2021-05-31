@@ -3,7 +3,7 @@ import './settings.css';
 
 const Settings = () => {
     return (
-        <div>
+        <div className="ml-80 justify-center">
             <form>
             <div class="field">
               <label for="">Full Name</label>

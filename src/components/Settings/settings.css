@@ -1,3 +1,6 @@
+form {
+  width: 40%;
+}
 label {
   letter-spacing: 0.75px;
   font-size: 0.9rem;
@@ -28,17 +31,6 @@ input {
   padding-bottom: 15px;
 }
 
-.bottom {
-  margin-left: 200px;
-}
-
-button {
-  width: 150px;
-  height: 45px;
-  bottom: 20px;
-  border: none;
-}
-
 .button_left {
   margin-right: 5px;
   background-color: #6c63ff;
@@ -46,6 +38,10 @@ button {
   color: #fff;
   letter-spacing: 0.5px;
   font-weight: 300;
+  width: 150px;
+  height: 45px;
+  bottom: 20px;
+  border: none;
 }
 
 .button_right {
@@ -56,6 +52,10 @@ button {
   font-weight: 300;
   color: #7376a3;
   opacity: 0.8;
+  width: 150px;
+  height: 45px;
+  bottom: 20px;
+  border: none;
 }
 
 button:hover {
