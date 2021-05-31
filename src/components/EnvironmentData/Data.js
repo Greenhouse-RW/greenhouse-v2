@@ -1,10 +1,11 @@
 import React from "react";
+import './Data.css';
 
 export const Data = () => {
   return (
-    <div className="flex w-full space-x-10 justify-center">
+    <div className="data flex w-full space-x-10 justify-center">
       <div className=" pt-16 mt-5 w-2/5">
-      <div className="text-xl text-black font-bold text-center  pb-6 ">
+      <div className=" data text-xl text-black font-bold text-center  pb-6 ">
          ENVIRONMENT DATA
         </div>
 

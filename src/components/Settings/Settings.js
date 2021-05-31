@@ -1,9 +1,32 @@
 import React from 'react'
 import './settings.css';
+import { useFileUpload } from 'use-file-upload'
 
 const Settings = () => {
+  const [file, selectFile] = useFileUpload()
     return (
+      
         <div className="flex justify-center">
+          <div>
+      <button
+        onClick={() => {
+          // Single File Upload
+          selectFile()
+        }}
+      >
+        Click to Upload
+      </button>
+
+      {file ? (
+        <div>
+          <img src={file.source} alt='preview' />
+          <span> Name: {file.name} </span>
+          <span> Size: {file.size} </span>
+        </div>
+      ) : (
+        <span>No file selected</span>
+      )}
+    </div>
             <form className="myform">
             {/* <h2>Enter your credential for sudden information</h2> */}
             <div class="field">
