@@ -8,8 +8,8 @@ const Settings = () => {
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-NcYFYo4FUItlxkh1ACEY-HOWjxiv6ROYzg&usqp=CAU";
     return (
         <div className="grid justify-items-center">
-
-<img className="myimage mt-6" src={files?.source || defaultSrc} alt="preview" />
+<h2 className="edit tracking-widest font-bold mt-8 text-lg">EDIT PROFILE.</h2>
+<img className="myimage mt-4" src={files?.source || defaultSrc} alt="preview" />
       <button className="button_left mt-4"
         onClick={() =>
           selectFiles({ accept: "image/*" }, ({ name, size, source, file }) => {

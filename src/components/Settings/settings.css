@@ -2,9 +2,12 @@
   width: 40%;
 }
 .myimage {
-  width: 180px;
-  height: 160px;
+  width: 174px;
+  height: 150px;
   border-radius: 60%;
+}
+.edit {
+  color: #3a3b49;
 }
 label {
   letter-spacing: 0.75px;
@@ -36,9 +39,9 @@ input {
   padding-bottom: 15px;
 }
 
-.button_left {
+button {
   margin-right: 5px;
-  background-color: rgba(79, 160, 131, 0.99);
+  background-color: rgba(71, 146, 120, 0.99);
   border-radius: 3px;
   font-size: 16px;
   color: #fff;
