@@ -39,7 +39,7 @@ input {
   padding-bottom: 15px;
 }
 
-button {
+.button_left {
   margin-right: 5px;
   background-color: rgba(71, 146, 120, 0.99);
   border-radius: 3px;
