@@ -3,7 +3,7 @@ import './settings.css';
 
 const Settings = () => {
     return (
-        <div className="ml-80 justify-center">
+        <div className="flex justify-center">
             <form className="myform">
             <div class="field">
               <label for="">Full Name</label>
@@ -30,12 +30,13 @@ const Settings = () => {
                      type="text"
                      name="full-name" />
             </div>
-            </form>
-            <div class="bottom">
-          <a href="#"><button class="button_left" type="submit" name="button">Save Changes</button></a>
+
+            <a href="#"><button class="button_left" type="submit" name="button">Save Changes</button></a>
           <a href="#"><button class="button_right" type="cancel" name="button">Cancel</button></a>
-        </div>
+            </form>
             
+          
+        
         </div>
     )
 }
