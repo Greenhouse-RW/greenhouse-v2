@@ -4,7 +4,7 @@ import './settings.css';
 const Settings = () => {
     return (
         <div className="ml-80 justify-center">
-            <form>
+            <form className="myform">
             <div class="field">
               <label for="">Full Name</label>
               <input class="full_name"
