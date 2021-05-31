@@ -78,6 +78,8 @@ export const Data = () => {
         </div>
 
       </div>
+
+      
       <div className="pt-16 mt-5 w-2/5 text-center relative">
         <div className="text-xl text-black font-bold text-center  pb-6 ">
           FACILITY CONTROL
