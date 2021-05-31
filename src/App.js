@@ -15,9 +15,11 @@ function App() {
   return (
     <div className="wrapper relative">
       <BrowserRouter>
-        <Navbar />
-        <Condition/>
+        <Navbar />   
         <Switch>
+        <Route path="/condition">
+        <Condition/>
+        </Route>
         <Route path="/signin">
           <Signin  />
           </Route>
