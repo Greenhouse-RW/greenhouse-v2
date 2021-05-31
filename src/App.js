@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Condition/>
-        {/* <Switch>
+        <Switch>
         <Route path="/signin">
           <Signin  />
           </Route>
@@ -30,7 +30,7 @@ function App() {
           <Route path="/">
           <Homepage/>
           </Route>
-        </Switch> */}
+        </Switch>
       </BrowserRouter>
     </div>
   );
