@@ -1,5 +1,11 @@
-<h2>
-    Hello darlin
-</h2>
+import React from 'react'
 
-export default Support;
+const Support = () => {
+    return (
+        <div>
+            <h2></h2>
+        </div>
+    )
+}
+
+export default Support
