@@ -29,7 +29,7 @@ function App() {
           <Route path="/calendar">
             <Main />
           </Route>
-          <Route path="/reports">
+          <Route path="/control">
             <Data />
           </Route>
           <Route path="/">
