@@ -30,6 +30,10 @@ const Support = () => {
                      name="full-name" />
             </div>
             </form>
+            <div class="bottom">
+          <a href="#"><button class="button_left" type="submit" name="button">Save Changes</button></a>
+          <a href="#"><button class="button_right" type="cancel" name="button">Cancel</button></a>
+        </div>
             
         </div>
     )
