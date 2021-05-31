@@ -33,19 +33,19 @@ const data = {
 
 const styles = {
      // bgColor: 'white',
-     titleTextColor: 'blue',
+     titleTextColor: 'darkgreen',
      titleTextSize: '30px',
-     rowTitleColor: 'blue',
+     rowTitleColor: 'green',
      // rowTitleTextSize: 'medium',
      rowContentColor: 'grey',
      rowContentTextSize: '16px',
-     // rowContentPaddingTop: '10px',
+     rowContentPaddingTop: '10px',
      rowContentPaddingBottom: '10px',
      rowContentPaddingLeft: '50px',
-     // rowContentPaddingRight: '150px',
-     // arrowColor: "red",
-     //transitionDuration: "1s",
-     // timingFunc: "ease"
+     rowContentPaddingRight: '150px',
+     arrowColor: "green",
+     transitionDuration: "1s",
+     timingFunc: "ease"
 };
 
 const config = {
