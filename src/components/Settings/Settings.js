@@ -12,21 +12,29 @@ const Settings = () => {
               name="full-name"  />
             </div>
             <div class="field">
-              <label for="">Email</label>
+              <label for="">Username</label>
+              <input class="full_name"
+                     type="text"
+                     name="full-name" />
+            </div>
+            <div class="field">
+              <label for="">Email or Phone</label>
               <input
                      type="text"
                      name="full-name" />
             </div>
+        
             <div class="field">
               <label for="">Password</label>
               <input class="full_name"
-                     type="text"
+                     type="password"
                      name="full-name" />
             </div>
+
             <div class="field">
-              <label for="">Birthday</label>
+              <label for="">Confirm Password</label>
               <input class="full_name"
-                     type="text"
+                     type="password"
                      name="full-name" />
             </div>
 
