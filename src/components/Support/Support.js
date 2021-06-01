@@ -33,19 +33,20 @@ const data = {
 
 const styles = {
      // bgColor: 'white',
-     titleTextColor: 'darkgreen',
+     titleTextColor: 'black',
      titleTextSize: '30px',
-     rowTitleColor: 'green',
+     rowTitleColor: 'darkgreen',
      // rowTitleTextSize: 'medium',
      rowContentColor: 'grey',
      rowContentTextSize: '16px',
      rowContentPaddingTop: '10px',
      rowContentPaddingBottom: '10px',
-     rowContentPaddingLeft: '50px',
+     rowContentPaddingLeft: '90px',
      rowContentPaddingRight: '150px',
      arrowColor: "green",
      transitionDuration: "1s",
      timingFunc: "ease"
+     
 };
 
 const config = {
