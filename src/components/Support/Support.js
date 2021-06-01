@@ -3,49 +3,68 @@ import Faq from "react-faq-component";
 import './support.css';
 
 const data = {
-    title: "Frequently asked questions.",
+    title: "Frequently Asked Questions About Auto-Green.",
     rows: [
+       
         {
-            title: "Lorem ipsum dolor sit amet,",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+            title: "What is Auto-Green ?",
+            content: `Auto-Green is an automated greenhouse , Therefore greenhouse automated system is a hardware and software system that will involve most of the problems that limit greenhouse production including poor climate control , lack of enough water in winter seasons.
+            `,
         },
+
         {
-            title: "Nunc maximus, magna at ultricies elementum",
+            title: "Why Auto-Green ?",
             content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+               `Auto-Green was thought of , due to low productivity of plants in Rwanda that is caused of poor maintenance of greenhouses.
+               Mostly plants in greenhouses die of lack of water(wilting) and poor temperature control under greenhouses which cause low productivity of greenhouse crops.
+               `,
         },
         {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            title: "What is the meaning of automatic greenhouses ?",
+            content: `Greenhouses are used to grow plants in controlled conditions.
+            These green houses are usually built in houses with glass or plastic in which plants will be grown in controlled conditions.
+            An automatic greenhouse is makes the production more faster and easier due to the automatic control. `,
         },
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "What solution does Auto-Green provide ?",
+            content: <p>&#8594;	Automated greenhouse involves the automatic monitoring and controlling of climatic parameters which directly or indirectly govern the plant growth and their production.  <p>&#8594; It constantly monitors and controls environmental conditions in the greenhouse to ensure it remains at present temperature , light , moisture and humidity levels.
+            </p>  <p>&#8594;	It focuses on saving water , increasing efficiency and reducing the environmental impacts on plant production.
+</p> <p>&#8594;	The user can see the atmospheric conditions of the green house plants on the website and control the greenhouse from far away places.</p></p>,
+        },
+        {
+            title: "How does Auto-Green work ?",
+            content:
+                `Users  see all the data collected from the sensor networks outside and inside the greenhouse periodically.
+                by the use of camera that are placed in the greenhouse which helps the administrator to check on plant growth any time without going into the greenhouse daily.
+                `,
+        },
+        {
+            title: "What is the best feature of Auto-Green ?",
+            content: `In case there is a problem the administrator will be informed immediately either via the sms or email given through the system according to the user’s choice. `,
+        },
+        {
+            title: "What is the latest version ?",
+            content: <p>current version is 1.0.0</p>,
         },
     ],
 };
 
 const styles = {
      // bgColor: 'white',
-     titleTextColor: 'darkgreen',
-     titleTextSize: '30px',
-     rowTitleColor: 'green',
+    //  titleTextColor: 'black',
+    //  rowTitleColor: 'darkgreen',
      // rowTitleTextSize: 'medium',
+     //  arrowColor: "green",
+     //  rowContentPaddingBottom: '10px',
+     titleTextSize: '26px',
      rowContentColor: 'grey',
-     rowContentTextSize: '16px',
+     rowContentTextSize: '17px',
      rowContentPaddingTop: '10px',
-     rowContentPaddingBottom: '10px',
      rowContentPaddingLeft: '50px',
-     rowContentPaddingRight: '150px',
-     arrowColor: "green",
+     rowContentPaddingRight: '60px',
      transitionDuration: "1s",
      timingFunc: "ease"
+     
 };
 
 const config = {
