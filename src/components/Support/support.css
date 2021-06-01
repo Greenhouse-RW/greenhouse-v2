@@ -6,6 +6,6 @@ h2 {
   font-weight: 600;
 }
 .row-title-text {
-  color: rgba(6, 111, 73, 0.99) !important;
-  font-weight: bold;
+  color: rgba(3, 54, 35, 0.99) !important;
+  font-size: large;
 }
