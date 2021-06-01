@@ -3,7 +3,7 @@ import Faq from "react-faq-component";
 import './support.css';
 
 const data = {
-    title: "Frequently asked questions.",
+    title: "Frequently Asked Questions About Auto-Green.",
     rows: [
        
         {
@@ -55,13 +55,12 @@ const styles = {
     //  rowTitleColor: 'darkgreen',
      // rowTitleTextSize: 'medium',
      //  arrowColor: "green",
+     //  rowContentPaddingBottom: '10px',
      rowContentColor: 'grey',
      rowContentTextSize: '17px',
      rowContentPaddingTop: '10px',
-    //  rowContentPaddingBottom: '10px',
      rowContentPaddingLeft: '50px',
      rowContentPaddingRight: '60px',
-    
      transitionDuration: "1s",
      timingFunc: "ease"
      
