@@ -7,14 +7,14 @@ import downCamera from '../../images/down-camera.svg';
 import dropDown from '../../images/drop-down-icon.svg';
 import leftArrow from '../../images/left-arrow.svg';
 import rightArrow from '../../images/right-arrow.svg';
-import tom from '../../images/tomatoes.jpg';
+import tom from '../../images/tomatoes.jpeg';
 // import red from '../../images/red-tomatoes.jpg';
 
 import "./Homepage.css";
 
 const Homepage = () => {
     return (
-        <div className="myhome">
+        <div className="myhome bg-current">
         <div className="container flex flex-row">
           
   {/* ########################################################################## */}
@@ -22,11 +22,12 @@ const Homepage = () => {
                 {/* *********************** */} 
                 <div className="text-white">
                 {/* <img src={menu} alt="menu-icon" className="w-8 ml-8	mt-6"></img> */}
-            <h1 className="font-bold ml-40	text-xl">GREENHOUSE CCTV CONTROL</h1>
+            <h1 className="font-bold ml-40 text-xl">GREENHOUSE CCTV CONTROL.</h1>
                 </div>
           
-<div className="generalstructure w-9/12	 ">
+<div className="generalstructure w-9/12 ">
               {/* *********************** */}
+            
             <div className="text-white">
                 <div className="subdiv">
                 <div className="subheading">
@@ -60,9 +61,14 @@ const Homepage = () => {
                    </div>
                    </div>
  {/* ########################################################################## */}
- <div className="session2 text-xs w-auto flex">
+ <div className="session2 mt-14 text-xs w-auto flex">
+ {/* <div className="text-white">
+               
+            
+                </div> */}
+                 <h1 className="font-bold text-xl ml-24 text-white">CAMERA'S LIST.</h1>
+ <div className="s2_container mt-10 overflow-y-auto h-full">
 
- <div className="s2_container mt-14 overflow-y-auto h-full">
                 <div className="street-info mt-1 px-2">
                  <div className="text-white street-data px-8 ">
                 <h1 className="cam-h1 mr-10 mt-2 py-2">Cam 1</h1>
@@ -70,7 +76,7 @@ const Homepage = () => {
                 <h3 className="cam-h3  ">13:30 SAT 14 JULY</h3>
                  </div>
                  <div>
-                 <img src={tom} alt="street-cam" className="w-44  h-26"></img>
+                 <img src={tom} alt="street-cam" className="w-44 "></img>
                  </div>
                  {/* <hr className="line"></hr> */}
                  </div>
@@ -84,7 +90,7 @@ const Homepage = () => {
                 <h3 className="cam-h3  ">13:30 SAT 14 JULY</h3>
                  </div>
                  <div>
-                 <img src={tom} alt="street-cam" className="w-44  h-26 "></img>
+                 <img src={tom} alt="street-cam" className="w-44 "></img>
                  </div>
                  </div>
 
@@ -103,7 +109,7 @@ const Homepage = () => {
 
 
 
-                 <div className="street-info mt-4 px-2">
+                 {/* <div className="street-info mt-4 px-2">
                  <div className="text-white street-data  px-8 ">
                 <h1 className="cam-h1 mr-10 mt-2 py-2">Cam 4</h1>
                 <h2 className="cam-h2 py-1 ">VG-PTR-45KLN</h2>
@@ -112,7 +118,7 @@ const Homepage = () => {
                  <div>
                  <img src={tom} alt="street-cam" className="w-44  h-26 "></img>
                  </div>
-                 </div>
+                 </div> */}
 
 
                  </div>
