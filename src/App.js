@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Main from "./components/Calendar/Main";
 import { Data } from "./components/EnvironmentData/Data";
 import Signin from "./components/Signin/Signin";
-import Condition from "../src/components/Conditions"
+import Condition from "./components/Env_conditions/Conditions"
 import Signup from './components/Signup/signup';
 import Support from './components/Support/Support';
 import Settings from './components/Settings/Settings'
