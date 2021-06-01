@@ -8,41 +8,43 @@ const data = {
        
         {
             title: "What is Auto-Green ?",
+            content: `Auto-Green is an automated greenhouse , Therefore greenhouse automated system is a hardware and software system that will involve most of the problems that limit greenhouse production including poor climate control , lack of enough water in winter seasons.
+            `,
+        },
+
+        {
+            title: "Why Auto-Green ?",
+            content:
+               `Auto-Green was thought of , due to low productivity of plants in Rwanda that is caused of poor maintenance of greenhouses.
+               Mostly plants in greenhouses die of lack of water(wilting) and poor temperature control under greenhouses which cause low productivity of greenhouse crops.
+               `,
+        },
+        {
+            title: "What is the meaning of automatic greenhouses ?",
             content: `Greenhouses are used to grow plants in controlled conditions.
             These green houses are usually built in houses with glass or plastic in which plants will be grown in controlled conditions.
-            An automatic greenhouse is makes the production more faster and easier due to the automatic control.`,
+            An automatic greenhouse is makes the production more faster and easier due to the automatic control. `,
         },
         {
-            title: "Nunc maximus, magna at ultricies elementum",
+            title: "What solution does Auto-Green provide ?",
+            content: <p>&#8594;	Automated greenhouse involves the automatic monitoring and controlling of climatic parameters which directly or indirectly govern the plant growth and their production.  <p>&#8594; It constantly monitors and controls environmental conditions in the greenhouse to ensure it remains at present temperature , light , moisture and humidity levels.
+            </p>  <p>&#8594;	It focuses on saving water , increasing efficiency and reducing the environmental impacts on plant production.
+</p> <p>&#8594;	The user can see the atmospheric conditions of the green house plants on the website and control the greenhouse from far away places.</p></p>,
+        },
+        {
+            title: "How does Auto-Green work ?",
             content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+                `Users  see all the data collected from the sensor networks outside and inside the greenhouse periodically.
+                by the use of camera that are placed in the greenhouse which helps the administrator to check on plant growth any time without going into the greenhouse daily.
+                `,
         },
         {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            title: "What is the best feature of Auto-Green ?",
+            content: `In case there is a problem the administrator will be informed immediately either via the sms or email given through the system according to the user’s choice. `,
         },
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
-        },
-        {
-            title: "Nunc maximus, magna at ultricies elementum",
-            content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
-        },
-        {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
-        },
-        {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "What is the latest version ?",
+            content: <p>current version is 1.0.0</p>,
         },
     ],
 };
