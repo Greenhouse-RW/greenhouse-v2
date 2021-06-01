@@ -50,12 +50,12 @@ const data = {
 
 const styles = {
      // bgColor: 'white',
-     titleTextColor: 'black',
-     titleTextSize: '30px',
-     rowTitleColor: 'darkgreen',
+    //  titleTextColor: 'black',
+    //  titleTextSize: '30px',
+    //  rowTitleColor: 'darkgreen',
      // rowTitleTextSize: 'medium',
      rowContentColor: 'grey',
-     rowContentTextSize: '16px',
+     rowContentTextSize: '17px',
      rowContentPaddingTop: '10px',
      rowContentPaddingBottom: '10px',
      rowContentPaddingLeft: '50px',
