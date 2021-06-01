@@ -18,37 +18,44 @@ import LandingPage from './components/LandingPage/LandingPage';
 function App() {
   return (
     <div className="wrapper relative">
-      {/* <BrowserRouter>
-        <Navbar />   
+      <BrowserRouter> 
       
         <Switch>
         <Route path="/settings">
+        <Navbar /> 
             <Settings />
           </Route>
           <Route path="/support">
-            <Support />
+          <Navbar /> 
+            <Support /> 
           </Route>
         <Route path="/condition">
-        <Condition />
+        <Navbar /> 
+        <Condition /> 
         </Route>
         <Route path="/signup">
-          <Signup/>
+          <Signup/>  
           </Route>
         <Route path="/signin">
-          <Signin  />
+          <Signin  /> 
           </Route>
           <Route path="/calendar">
-            <Main />
+          <Navbar /> 
+            <Main /> 
           </Route>
           <Route path="/control">
-            <Data />
+          <Navbar /> 
+            <Data /> 
+          </Route>
+          <Route path="/home">
+          <Navbar /> 
+          <Homepage /> 
           </Route>
           <Route path="/">
-          <Homepage/>
+            <LandingPage />
           </Route>
         </Switch>
-      </BrowserRouter> */}
-      <LandingPage/>
+      </BrowserRouter>
     </div>
   );
 }
