@@ -1,0 +1,77 @@
+.myform {
+  width: 40%;
+}
+.myimage {
+  width: 174px;
+  height: 150px;
+  border-radius: 60%;
+}
+.edit {
+  color: #3a3b49;
+}
+label {
+  letter-spacing: 0.75px;
+  font-size: 1rem;
+  color: #3a3b49;
+  opacity: 0.7;
+}
+
+input {
+  padding-bottom: 5px;
+  padding-top: 16px;
+  margin-left: 0px;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #eaeaea;
+  letter-spacing: 0.29px;
+  color: #292b43;
+  font-size: 0.95rem;
+  font-weight: 300;
+}
+
+.field {
+  padding-bottom: 20px;
+}
+
+.field:last-child {
+  padding-bottom: 15px;
+}
+
+.button_left {
+  margin-right: 5px;
+  background-color: rgba(71, 146, 120, 0.99);
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  width: 150px;
+  height: 40px;
+  bottom: 20px;
+  border: none;
+}
+
+.button_right {
+  margin-left: 5px;
+  background-color: #eaeaea;
+  border-radius: 3px;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+  color: #7376a3;
+  opacity: 0.8;
+  width: 150px;
+  height: 40px;
+  bottom: 20px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
