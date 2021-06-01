@@ -5,11 +5,11 @@ import './Condition.css'
 function Condition() {
 
     return (
-        <div>
+        <div className="condition">
       <div className="flex w-full space-x-10 justify-center">
       <div className=" mt-16 w-2/5">
              {/* for row */}
-        <div class = "text-xl text-black font-bold text-center" > SET THE VALUE OF PLANT’ S BETTER HEALTH. </div>
+        <div class = "condition text-xl text-black font-bold text-center" > SET THE VALUE OF PLANT’ S BETTER HEALTH. </div>
 
         <div class = " flex flex-col space-y-6  relative" >
         
@@ -76,7 +76,7 @@ function Condition() {
                 <div className = "w-12 mt-2 mr-8" > Temperature: </div>
                 <div class="h-8 ml-5  shadow flex w-16 mt-2"> </div>
                 <div>-</div>
-                <div class="h-8 shadow flex w-16 mt-2">  </div>
+                <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
                 <div>C</div>
         
             </div>
@@ -84,7 +84,7 @@ function Condition() {
               <div className = "w-12 mt-2 mr-8" > Illumination: </div>
               <div class="h-8 ml-5 shadow flex w-16 mt-2  "> </div>
               <div>-</div>
-              <div class = "h-8 shadow flex w-16  mt-2" > </div>
+              <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
               <div>bx</div>
         
                </div>
@@ -92,7 +92,7 @@ function Condition() {
              <div className = "w-12 mt-2 mr-8" > CO2 : </div>
              <div class="h-8 ml-5 shadow flex w-16 mt-2  "> </div>
              <div>-</div>
-             <div  class = "h-8 shadow flex w-16  mt-2" > </div>
+             <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div> %</div>
         
                </div>
@@ -100,7 +100,7 @@ function Condition() {
              <div className = "w-17 h-8 mt-2 -m-3" > Soil moisture : </div>
              <div class="h-8 shadow flex w-16 mt-2"> </div>
              <div>-</div>
-             <div class = "h-8 shadow flex w-16  mt-2" > </div>
+             <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div> % </div>
         
                </div>
@@ -108,7 +108,7 @@ function Condition() {
              <div className = "w-12 mt-2 mr-8" > PH : </div>
              <div  class="h-8 ml-5 shadow flex w-16 mt-2 "> </div>
              <div>-</div>
-             <div class = "h-8 shadow flex w-16  mt-2" > </div>
+             <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div></div>
         
                </div>
@@ -122,7 +122,6 @@ function Condition() {
         
                </div>
         
-      
                 </div>
         
          </div>
