@@ -74,15 +74,15 @@ function Condition() {
         <div class = " flex flex-col space-y-6  relative" >
             <div className = "flex space-x-6 relative mt-24" >
                 <div className = "w-12 mt-2 mr-8" > Temperature: </div>
-                <div class="h-8 ml-5  shadow flex w-16 mt-2"> </div>
+                <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
                 <div>-</div>
                 <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
-                <div>C</div>
+                <div>&#176;C</div>
         
             </div>
             <div className = "flex space-x-6 relative mt-24" >
               <div className = "w-12 mt-2 mr-8" > Illumination: </div>
-              <div class="h-8 ml-5 shadow flex w-16 mt-2  "> </div>
+              <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
               <div>-</div>
               <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
               <div>bx</div>
@@ -90,7 +90,7 @@ function Condition() {
                </div>
                <div className = "flex space-x-6 relative mt-24" >
              <div className = "w-12 mt-2 mr-8" > CO2 : </div>
-             <div class="h-8 ml-5 shadow flex w-16 mt-2  "> </div>
+             <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div>-</div>
              <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div> %</div>
@@ -98,7 +98,7 @@ function Condition() {
                </div>
                <div className = "flex space-x-6 relative mt-24" >
              <div className = "w-17 h-8 mt-2 -m-3" > Soil moisture : </div>
-             <div class="h-8 shadow flex w-16 mt-2"> </div>
+             <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div>-</div>
              <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div> % </div>
@@ -106,7 +106,7 @@ function Condition() {
                </div>
                <div className = "flex space-x-6 relative mt-24" >
              <div className = "w-12 mt-2 mr-8" > PH : </div>
-             <div  class="h-8 ml-5 shadow flex w-16 mt-2 "> </div>
+             <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div>-</div>
              <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div></div>
@@ -115,9 +115,9 @@ function Condition() {
 
              <div className = "flex space-x-6 relative mt-24" >
              <div className = "mr-8 w-12 mt-2 " > EC : </div>
-             <div className="h-8 ml-5 shadow flex w-16 mt-2 "> </div>
-             <div>-</div>
-             <div class = "h-8 shadow flex w-16  mt-2" > </div>
+             <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
+                          <div>-</div>
+             <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
              <div> % </div>
         
                </div>
