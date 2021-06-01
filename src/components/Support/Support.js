@@ -7,11 +7,10 @@ const data = {
     rows: [
        
         {
-            title: "Lorem ipsum dolor sit amet,",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+            title: "What is Auto-Green ?",
+            content: `Greenhouses are used to grow plants in controlled conditions.
+            These green houses are usually built in houses with glass or plastic in which plants will be grown in controlled conditions.
+            An automatic greenhouse is makes the production more faster and easier due to the automatic control.`,
         },
         {
             title: "Nunc maximus, magna at ultricies elementum",
