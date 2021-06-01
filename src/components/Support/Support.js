@@ -5,6 +5,7 @@ import './support.css';
 const data = {
     title: "Frequently asked questions.",
     rows: [
+       
         {
             title: "Lorem ipsum dolor sit amet,",
             content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
@@ -41,7 +42,7 @@ const styles = {
      rowContentTextSize: '16px',
      rowContentPaddingTop: '10px',
      rowContentPaddingBottom: '10px',
-     rowContentPaddingLeft: '90px',
+     rowContentPaddingLeft: '50px',
      rowContentPaddingRight: '150px',
      arrowColor: "green",
      transitionDuration: "1s",
