@@ -12,13 +12,15 @@ import Condition from "./components/Env_conditions/Conditions"
 import Signup from './components/Signup/signup';
 import Support from './components/Support/Support';
 import Settings from './components/Settings/Settings'
+import LandingPage from './components/LandingPage/LandingPage';
 
 
 function App() {
   return (
     <div className="wrapper relative">
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Navbar />   
+      
         <Switch>
         <Route path="/settings">
             <Settings />
@@ -45,7 +47,8 @@ function App() {
           <Homepage/>
           </Route>
         </Switch>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <LandingPage/>
     </div>
   );
 }
