@@ -54,13 +54,14 @@ const styles = {
     //  titleTextSize: '30px',
     //  rowTitleColor: 'darkgreen',
      // rowTitleTextSize: 'medium',
+     //  arrowColor: "green",
      rowContentColor: 'grey',
      rowContentTextSize: '17px',
      rowContentPaddingTop: '10px',
     //  rowContentPaddingBottom: '10px',
      rowContentPaddingLeft: '50px',
-     rowContentPaddingRight: '150px',
-     arrowColor: "green",
+     rowContentPaddingRight: '60px',
+    
      transitionDuration: "1s",
      timingFunc: "ease"
      
