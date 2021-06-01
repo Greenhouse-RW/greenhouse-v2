@@ -6,13 +6,13 @@ function Condition() {
     return (
         <div>
       <div className="flex w-full space-x-10 justify-center">
-      <div className=" pt-16 mt-5 w-2/5">
+      <div className=" pt-16 mt-2 w-2/5">
              {/* for row */}
-        <div class = "ml-3" > SET THE VALUE OF PLANT’ S BETTER HEALTH </div>
+        <div class = "ml-3 font-bold text-md " > SET THE VALUE OF PLANT’ S BETTER HEALTH </div>
 
         <div class = " flex flex-col space-y-6  relative" >
         
-        <div className = "flex space-x-6 relative mt-24" >
+        <div className = "flex space-x-6 relative mt-10" >
                 <div className = "w-12 mt-2 mr-3" > Temperature: </div>
                 <div> <input class="h-8 ml-5 shadow flex w-16 mt-2"/></div>
                 <div>-</div>
@@ -70,8 +70,9 @@ function Condition() {
         
 <div className="mt-5 pt-16 w2/5 text-center relative">
 
+  <div class = "ml-3 font-bold text-md " > RECORDS OF CLIMATIC CONDITION. </div>
         <div class = " flex flex-col space-y-6  relative" >
-            <div className = "flex space-x-6 relative mt-24" >
+            <div className = "flex space-x-6 relative mt-10" >
                 <div className = "w-12 mt-2 mr-8" > Temperature: </div>
                 <div class="h-8 ml-5  shadow flex w-16 mt-2"> </div>
                 <div>-</div>
@@ -124,23 +125,9 @@ function Condition() {
       
                 </div>
         
+            </div>
          </div>
-         </div>
-         <div class ="mt-5 ml-96">
-<form action="" method="post">
-<h4 class="my-8">Enter your credentials for sudden information.</h4>
-<input class="w-80 h-18 border-2 rounded-xl p-1 px-2" placeholder="Enter your Last Name "/> <br/><br/>
-<input class="w-80 h-18 border-2 rounded-xl p-1 px-2" placeholder="Enter your Last Name "/><br/><br/>
-<input class="w-80 h-18 border-2  rounded-xl p-1 px-2" placeholder="Enter your phone number"/><br/><br/>
-<input class="w-80 h-18 border-2  rounded-xl p-1 px-2" placeholder="Enter your email "/><br/><br/><br/>
-<input type="button" value="Submit" className=" mb-12 mx-24 rounded-xl w-44 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 "/>
-
-</form>
-
-    </div>
-
-
-         </div>
+</div>
     )
 }
 
