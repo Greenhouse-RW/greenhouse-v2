@@ -57,7 +57,7 @@ const styles = {
      rowContentColor: 'grey',
      rowContentTextSize: '17px',
      rowContentPaddingTop: '10px',
-     rowContentPaddingBottom: '10px',
+    //  rowContentPaddingBottom: '10px',
      rowContentPaddingLeft: '50px',
      rowContentPaddingRight: '150px',
      arrowColor: "green",
