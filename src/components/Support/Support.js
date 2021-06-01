@@ -51,11 +51,11 @@ const data = {
 const styles = {
      // bgColor: 'white',
     //  titleTextColor: 'black',
-    //  titleTextSize: '30px',
     //  rowTitleColor: 'darkgreen',
      // rowTitleTextSize: 'medium',
      //  arrowColor: "green",
      //  rowContentPaddingBottom: '10px',
+     titleTextSize: '26px',
      rowContentColor: 'grey',
      rowContentTextSize: '17px',
      rowContentPaddingTop: '10px',
