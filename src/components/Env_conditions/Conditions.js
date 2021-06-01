@@ -7,13 +7,13 @@ function Condition() {
     return (
         <div className="condition">
       <div className="flex w-full space-x-10 justify-center">
-      <div className=" mt-16 w-2/5">
+      <div className=" pt-16 mt-2 w-2/5">
              {/* for row */}
-        <div class = "condition text-xl text-black font-bold text-center" > SET THE VALUE OF PLANT’ S BETTER HEALTH. </div>
+        <div class = "ml-3 font-bold text-md " > SET THE VALUE OF PLANT’ S BETTER HEALTH </div>
 
         <div class = " flex flex-col space-y-6  relative" >
         
-        <div className = "flex space-x-6 relative mt-16" >
+        <div className = "flex space-x-6 relative mt-10" >
                 <div className = "w-12 mt-2 mr-3" > Temperature: </div>
                 <div> <input class="h-8 ml-5 shadow flex w-16 mt-2"/></div>
                 <div>-</div>
@@ -71,8 +71,9 @@ function Condition() {
         
 <div className="mt-16 w2/5 text-center relative">
 
+  <div class = "ml-3 font-bold text-md " > RECORDS OF CLIMATIC CONDITION. </div>
         <div class = " flex flex-col space-y-6  relative" >
-            <div className = "flex space-x-6 relative mt-24" >
+            <div className = "flex space-x-6 relative mt-10" >
                 <div className = "w-12 mt-2 mr-8" > Temperature: </div>
                 <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
                 <div>-</div>
@@ -124,10 +125,9 @@ function Condition() {
         
                 </div>
         
+            </div>
          </div>
-         </div>
-
-         </div>
+</div>
     )
 }
 
