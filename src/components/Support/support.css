@@ -1,0 +1,10 @@
+.faq-row-wrapper {
+  padding: 60px 200px 0 200px;
+}
+h2 {
+  color: rgba(6, 111, 73, 0.99) !important;
+  font-weight: 600;
+}
+.row-title-text {
+  color: rgba(3, 54, 35, 0.99) !important;
+}
