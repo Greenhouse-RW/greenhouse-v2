@@ -19,7 +19,7 @@ form {
 }
 
 .feedback-input:focus {
-  border: 2px solid rgba(42, 102, 81, 0.99);
+  border: 2px solid rgba(109, 168, 148, 0.99);
 }
 
 textarea {
@@ -31,7 +31,7 @@ textarea {
 [type="submit"] {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   width: 100%;
-  background: #cc6666;
+  background: rgba(79, 160, 131, 0.99);
   border-radius: 5px;
   border: 0;
   cursor: pointer;

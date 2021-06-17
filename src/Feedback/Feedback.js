@@ -12,7 +12,7 @@ export default function feedback() {
     <form>      
   <input name="name" type="text" class="feedback-input" placeholder="Name" />   
   <input name="email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <textarea name="text" class="feedback-input" placeholder="Feedback"></textarea>
   <input type="submit" value="SUBMIT"/>
 </form>
     </div>
