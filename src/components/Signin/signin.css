@@ -82,7 +82,6 @@ a {
     width:40%;
     float:left;
   } */
-
 .signinform .centered {
   width: 400px;
   position: absolute;
@@ -94,19 +93,20 @@ a {
 .signinform .centered button {
   margin-left: 2em;
   margin-top: 4em;
-  background-color: #64c2a0c2;
+  background-color: #5fc09cc2;
   /* width:275px;
       padding-right:90px; */
 }
 
 .signinform h3 {
-  margin-left: 3em;
+  /* margin-left: 3em;
   margin-bottom: 2em;
   font-family: Nunito;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal; */
+  font-weight: 800;
   color: #fffafa;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .signinform .grp {
