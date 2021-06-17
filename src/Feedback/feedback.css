@@ -1,10 +1,10 @@
 form {
   max-width: 420px;
-  margin: 109px 0 0 150px;
+  margin: 50px auto;
 }
 
 .feedback-input {
-  color: white;
+  color: rgb(46, 43, 43);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
