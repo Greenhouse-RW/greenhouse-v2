@@ -26,9 +26,6 @@ const LandingPage = () => {
             </div>
             </div>
             <div className="svg-container">
-            {/* <img src={svgtwo} alt="signup icon" className="image1 mt-10 transform skew-y-6 transform rotate-45"></img>
-            <img src={svgone} alt="signup icon" className=" image2 transform rotate-45"></img> */}
-            {/* <img src={svgone} alt="signup icon" className="image2 h-screen"></img>  */}
             <ul class="slides">
     <input type="radio" name="radio-btn" id="img-1" checked />
     <li class="slide-container">
