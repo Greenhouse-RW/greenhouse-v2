@@ -36,7 +36,7 @@ export const SidebarData = [
   },
  
   {
-    title: 'Support',
+    title: 'Feedback',
     path: '/feedback',
     icon: <IoIcons.IoMdHelpCircle />,
     cName: 'nav-text'

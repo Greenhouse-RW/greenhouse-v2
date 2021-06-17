@@ -9,7 +9,7 @@
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border: 2px solid rgba(91, 166, 201, 0.99);
+  border: 2px solid rgba(109, 168, 148, 0.99);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -19,7 +19,7 @@
 }
 
 .feedback-input:focus {
-  border: 2px solid rgba(109, 168, 148, 0.99);
+  border: 2px solid rgba(109, 159, 168, 0.99);
 }
 
 textarea {
@@ -30,7 +30,7 @@ textarea {
 
 .feed {
   width: 100%;
-  background: rgba(79, 160, 131, 0.99);
+  background: rgba(30, 124, 91, 0.99);
   border-radius: 5px;
   border: 0;
   cursor: pointer;
@@ -42,5 +42,5 @@ textarea {
   margin-top: -4px;
 }
 .feed {
-  background: #36aa9b;
+  background: #1c9685;
 }
