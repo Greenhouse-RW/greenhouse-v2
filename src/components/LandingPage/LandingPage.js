@@ -3,7 +3,6 @@ import './LandingPage.css';
 import svgone from '../../images/plant.jpeg';
 // import svgtwo from '../../images/boom.svg';
 // import home from '../../images/home.svg';
-// import signup from '../../images/signup.svg'
 const LandingPage = () => {
     return ( 
         <div>
