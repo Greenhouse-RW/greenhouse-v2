@@ -28,8 +28,7 @@ textarea {
   resize: vertical;
 }
 
-[type="submit"] {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+/* [type="submit"] {
   width: 100%;
   background: rgba(79, 160, 131, 0.99);
   border-radius: 5px;
@@ -42,6 +41,20 @@ textarea {
   transition: all 0.3s;
   margin-top: -4px;
   font-weight: 700;
+} */
+
+.feed {
+  width: 100%;
+  background: rgba(79, 160, 131, 0.99);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
 }
 [type="submit"]:hover {
   background: #cc4949;
