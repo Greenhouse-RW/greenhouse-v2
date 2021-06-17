@@ -29,7 +29,7 @@ const LandingPage = () => {
     <input type="radio" name="radio-btn" id="img-1" checked />
     <li class="slide-container">
 		<div class="slide">
-			<img src="https://images.unsplash.com/photo-1611511449908-4835bf24a62c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fGdyZWVuaG91c2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+			<img src="https://images.unsplash.com/photo-1534430449256-b8a0d6d86a41?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzAyfHxncmVlbmhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
         </div>
 		<div class="nav">
 			<label for="img-6" class="prev">&#x2039;</label>
@@ -40,7 +40,7 @@ const LandingPage = () => {
     <input type="radio" name="radio-btn" id="img-2" />
     <li class="slide-container">
         <div class="slide">
-          <img src="https://images.unsplash.com/photo-1615671524827-c1fe3973b648?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdyZWVuaG91c2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+          <img src="https://images.unsplash.com/photo-1566208541413-b8575e37587d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTgyfHxncmVlbmhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
         </div>
 		<div class="nav">
 			<label for="img-1" class="prev">&#x2039;</label>
