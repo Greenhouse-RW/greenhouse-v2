@@ -17,7 +17,7 @@ const Signup = () => {
     return (
     <div className="flex registerForm h-screen">
             <div className="col-md-4 imgback text-center p-20">
-                <h3 className="font-semibold mb-3">Welcome To Greenhouse</h3>
+                <h3 className="font-semibold mb-3">WELCOME TO GREENHOUSE</h3>
                 <p>Enter your personal details to <br/> start your journey with us</p>
             </div>
 
