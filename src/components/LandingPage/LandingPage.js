@@ -1,6 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
-import svgone from '../../images/plant.png';
+import svgone from '../../images/plant.jpeg';
 // import svgtwo from '../../images/boom.svg';
 // import home from '../../images/home.svg';
 // import signup from '../../images/signup.svg'
@@ -47,7 +47,7 @@ const LandingPage = () => {
     <input type="radio" name="radio-btn" id="img-2" />
     <li class="slide-container">
         <div class="slide">
-          <img src="http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg" />
+          <img src={svgone} />
         </div>
 		<div class="nav">
 			<label for="img-1" class="prev">&#x2039;</label>
