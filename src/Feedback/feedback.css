@@ -1,0 +1,61 @@
+.feedback-form {
+  max-width: 500px;
+  margin: 80px 0 0 130px;
+}
+
+.feedback-input {
+  color: rgb(46, 43, 43);
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid rgba(91, 166, 201, 0.99);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid rgba(109, 168, 148, 0.99);
+}
+
+textarea {
+  height: 200px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+/* [type="submit"] {
+  width: 100%;
+  background: rgba(79, 160, 131, 0.99);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+} */
+
+.feed {
+  width: 100%;
+  background: rgba(79, 160, 131, 0.99);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+}
+.feed {
+  background: #36aa9b;
+}
