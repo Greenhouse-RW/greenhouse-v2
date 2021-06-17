@@ -1,6 +1,5 @@
 import React from 'react';
 import './LandingPage.css';
-import svgone from '../../images/plant.jpeg';
 
 const LandingPage = () => {
     return ( 
