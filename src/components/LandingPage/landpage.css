@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(79,160, 131);
+    /* background-color: rgb(79,160, 131); */
     font-family: 'Inter';
 }
 .home-icon{
@@ -25,7 +25,7 @@ a {
   /* Fade in */
   a::after {
     content: '';
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 0;
     width: 100%;

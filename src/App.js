@@ -1,6 +1,5 @@
 
 import './App.css';
-import "./App.css";
 import React from "react";
 import Navbar from "./components/Navbar";
 import Homepage from './components/Homepage/Homepage';
@@ -18,7 +17,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 function App() {
   return (
     <div className="wrapper relative">
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Navbar />   
       
         <Switch>
@@ -47,8 +46,8 @@ function App() {
           <Homepage/>
           </Route>
         </Switch>
-      </BrowserRouter> */}
-      <LandingPage/>
+      </BrowserRouter>
+      {/* <LandingPage/> */}
     </div>
   );
 }
