@@ -57,14 +57,14 @@
   padding: 0 2em;
 }
 .registerForm form input {
-  background-color: rgba(72, 129, 108, 0.13);
+  /* background-color: rgba(72, 129, 108, 0.13); */
   margin: 0.5em auto;
   padding: 10px 20px;
   width: 450px;
   height: 40px;
-  border: 0px solid transparent;
-  color: rgba(0, 0, 0, 0.57);
-  outline: none;
+  /* border: 0px solid transparent; */
+  /* color: rgba(0, 0, 0, 0.57); */
+  /* outline: none; */
   /* border-bottom: 1px solid #4FA083; */
   /* transition: all .5s ease; */
 }

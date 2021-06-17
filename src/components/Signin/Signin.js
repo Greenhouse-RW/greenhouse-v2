@@ -69,7 +69,7 @@ class Signin extends Component{
                 </div> */}
 
                 {/* <p className="mt-8 ml-48">or use your email account : </p> */}
-                <input className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent" placeholder="Email" name="email" type="email"
+                <input className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Email" name="email" type="email"
                 value={this.state.email}
                 onChange={e => this.change(e)}
                 required /><br></br>

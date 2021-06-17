@@ -59,7 +59,7 @@ const Signup = () => {
                     {/* Username input */}
                     <div className="row md:ml-44 mt-10 mb-3.5">
                     <input 
-                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent"
+                        className="ml-40 mb-6 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                         type="text" 
                         placeholder="Username"
                         name="username"
