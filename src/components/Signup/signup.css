@@ -60,8 +60,8 @@
   /* background-color: rgba(72, 129, 108, 0.13); */
   margin: 0.5em auto;
   padding: 10px 20px;
-  width: 450px;
-  height: 40px;
+  /* width: 450px;
+  height: 40px; */
   /* border: 0px solid transparent; */
   /* color: rgba(0, 0, 0, 0.57); */
   /* outline: none; */
@@ -71,21 +71,18 @@
 .registerForm form input::placeholder {
   color: rgba(0, 0, 0, 0.57);
 }
-.registerForm form input:focus {
-  border: 1px solid #066f49;
-}
 .registerForm .registerSubmit {
   transition: all 0.5s ease;
   width: 10em;
   border-radius: 12px;
   color: #fff;
-  background-color: #c0dad1;
+  background-color: rgba(79, 160, 132, 0.904);
   margin: 1.5em 10em;
   font-weight: 800;
 }
 .registerForm .btn:hover,
 .registerForm .btn:focus {
-  background-color: rgba(79, 160, 132, 0.904);
+  background-color: rgba(96, 160, 138, 0.904);
   transition: all 0.5s ease;
 }
 .registerForm .buttons button {

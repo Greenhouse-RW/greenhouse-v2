@@ -59,7 +59,7 @@ const Signup = () => {
                     {/* Username input */}
                     <div className="row md:ml-44 mt-10 mb-3.5">
                     <input 
-                        className="ml-40 mb-6 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                         type="text" 
                         placeholder="Username"
                         name="username"
@@ -70,7 +70,7 @@ const Signup = () => {
                     {/* Email input */}
                     <div className="row md:ml-44 mb-3.5">
                     <input 
-                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent"
+                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                         type="text" 
                         placeholder="Email"
                         name="email" 
@@ -81,7 +81,7 @@ const Signup = () => {
                     {/* Password input */}
                     <div className="row md:ml-44 mb-3.5">
                     <input 
-                        className="ml-40 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                         type="password" 
                         placeholder="Password"
                         name="password"
@@ -95,8 +95,8 @@ const Signup = () => {
                     </div>
 
                     <div className="flex md:ml-80 ml-12 mt-3">
-                        <Link to="/signin" className="text-lg text-center cursor-pointer">Already a member</Link>
-                        <svg className="ml-4 mt-0.5 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg>
+                    <Link className="text-lg cursor-pointer ml-44" to="/signup">Don't have an account? <span className="text-blue-400 ">Sign up</span></Link>
+                        {/* <svg className="ml-4 mt-0.5 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg> */}
                     </div>
                 </form>
             </div>
