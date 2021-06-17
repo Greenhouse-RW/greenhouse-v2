@@ -13,6 +13,7 @@ import Signup from './components/Signup/signup';
 import Settings from './components/Settings/Settings'
 import LandingPage from './components/LandingPage/LandingPage';
 import Feedback from './Feedback/Feedback';
+import Support from './components/Support/Support';
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
       <BrowserRouter> 
       
         <Switch>
+        <Route path="/faq">
+            <Support />
+          </Route>
         <Route path="/settings">
         <Navbar /> 
             <Settings />

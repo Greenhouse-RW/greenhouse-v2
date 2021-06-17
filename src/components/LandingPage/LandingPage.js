@@ -22,7 +22,7 @@ const LandingPage = () => {
                 <a href="/signin"><button class="button_left" type="submit" name="button">JOIN US</button></a>              
                 </li>
                 <li>
-                <a href="/support"><button class="button_right" type="submit" name="button">EXPLORE</button></a>
+                <a href="/faq"><button class="button_right" type="submit" name="button">EXPLORE</button></a>
                 </li>
             </ul>
 
