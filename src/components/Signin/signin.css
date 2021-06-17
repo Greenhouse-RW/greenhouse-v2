@@ -46,8 +46,7 @@ a {
   border: 0px;
   width: 80%;
   height: 45px;
-  background: rgba(72, 129, 108, 0.28);
-
+  /* background: rgba(72, 129, 108, 0.28); */
   padding: 5px 2px 5px 25px;
   outline: 0;
   font-family: Nunito;
