@@ -41,7 +41,7 @@ class Signin extends Component{
 
                 <div id="left" >
                  
-                <h1 class="ml-44 font-semibold">Ready! Sign in</h1>
+                <h1 class="ml-44 font-semibold">Ready! Login</h1>
 
                 <div class="svg flex space-x-4  mt-4">
                 <a href="https://www.facebook.com">
@@ -101,7 +101,7 @@ class Signin extends Component{
                  <div className="centered">
                      <h3 className="font-semibold">Welcome Back!</h3>
                      <p id="lastP" className="grp"> To keep connected with us please login with your personal info.</p>
-                     <button className="but focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent"  onClick={ e =>this.onSubmit(e)}>SING UP</button>
+                     <button className="but focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent"  onClick={ e =>this.onSubmit(e)}>SIGN UP</button>
                  </div>
                 </div>
 
