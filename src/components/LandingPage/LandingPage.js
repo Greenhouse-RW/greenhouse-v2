@@ -8,10 +8,10 @@ const LandingPage = () => {
         <div className="flex h-screen overflow-x-hidden overflow-y-hidden">
             
             <div className="w-7/12 grid justify-items-center">
-             <h1 className="text-6xl font-bold tracking-wider mt-24 text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">WELCOME TO <br></br>AUTO-GREEN</h1>
-             <p className="explain text-lg leading-relaxed mt-8 tracking-wide">AUTO-GREEN is an automated greenhouse that <br></br>  involves the automatic monitoring and controlling of <br></br> climatic  parameters which directly or indirectly govern <br></br> the plant growth and increase the productivity.</p>
+             <h1 className="text-6xl font-bold tracking-wider mt-14 text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">WELCOME TO <br></br>AUTO-GREEN</h1>
+             <p className="explain text-lg leading-relaxed  tracking-wide">AUTO-GREEN is an automated greenhouse that <br></br>  involves the automatic monitoring and controlling of <br></br> climatic  parameters which directly or indirectly govern <br></br> the plant growth and increase the productivity.</p>
             <p className="explain text-lg leading-relaxed tracking-wide">Enjoy watching your plant grow healthy and productive <br></br> in the simplest way by interacting with our application.</p>
-            <div className="flex flex-row nav-links mt-8">
+            <div className="flex flex-row nav-links">
             <ul className="flex flex-row">
                 
                 <li className="flex flex-row">
