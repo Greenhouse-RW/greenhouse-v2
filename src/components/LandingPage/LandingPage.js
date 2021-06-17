@@ -1,6 +1,9 @@
 import React from 'react';
 import './LandingPage.css';
-
+import svgone from '../../images/plant.png';
+// import svgtwo from '../../images/boom.svg';
+// import home from '../../images/home.svg';
+// import signup from '../../images/signup.svg'
 const LandingPage = () => {
     return ( 
         <div>
@@ -12,59 +15,24 @@ const LandingPage = () => {
              <p className="explain text-lg leading-relaxed mt-8 tracking-wide">AUTO-GREEN is an automated greenhouse that <br></br>  involves the automatic monitoring and controlling of <br></br> climatic  parameters which directly or indirectly govern <br></br> the plant growth and increase the productivity.</p>
             <p className="explain text-lg leading-relaxed tracking-wide">Enjoy watching your plant grow healthy and productive <br></br> in the simplest way by interacting with our application.</p>
             <div className="flex flex-row nav-links mt-8">
+            {/* <img src={signup} alt="signup icon" className="w-8"></img>  */}
             <ul className="flex flex-row">
                 
-                <li className="flex flex-row">
+            <li className="flex flex-row">
                 <a href="/signin"><button class="button_left" type="submit" name="button">JOIN US</button></a>              
                 </li>
                 <li>
                 <a href="/faq"><button class="button_right" type="submit" name="button">EXPLORE</button></a>
                 </li>
+                
             </ul>
 
             </div>
             </div>
             <div className="svg-container">
-            <ul class="slides">
-    <input type="radio" name="radio-btn" id="img-1" checked />
-    <li class="slide-container">
-		<div class="slide">
-			<img src="https://images.unsplash.com/photo-1566208541413-b8575e37587d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTgyfHxncmVlbmhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-        </div>
-		<div class="nav">
-			<label for="img-6" class="prev">&#x2039;</label>
-			<label for="img-2" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-2" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="https://images.unsplash.com/photo-1563865973424-86ee636944c1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTgyfHxncmVlbmhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-        </div>
-		<div class="nav">
-			<label for="img-1" class="prev">&#x2039;</label>
-			<label for="img-3" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-6" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="https://images.unsplash.com/photo-1533322069166-aa4d608459df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM3fHxncmVlbmhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-        </div>
-		<div class="nav">
-			<label for="img-5" class="prev">&#x2039;</label>
-			<label for="img-1" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <li class="nav-dots">
-      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-    </li>
-</ul>
+            {/* <img src={svgtwo} alt="signup icon" className="image1 mt-10 transform skew-y-6 transform rotate-45"></img>
+            <img src={svgone} alt="signup icon" className=" image2 transform rotate-45"></img> */}
+            <img src={svgone} alt="signup icon" className="image2 h-screen"></img> 
             </div>
         </div>
         </div>
