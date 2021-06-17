@@ -69,7 +69,7 @@ class Signin extends Component{
                 </div>
 
                 <p className="mt-8 ml-48">or use your email account : </p>
-                <input className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent" placeholder="Email" name="email" type="email"
+                <input className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Email" name="email" type="email"
                 value={this.state.email}
                 onChange={e => this.change(e)}
                 required /><br></br>
@@ -98,8 +98,8 @@ class Signin extends Component{
 
                 <div id="right" >
                  <img class="h-screen" src={leaves} alt="green" ></img>
-                 <div className="centered">
-                     <h3 className="font-semibold">Welcome Back!</h3>
+                 <div className="centered grid justify-items-center">
+                     <h2 className="font-black text-5xl mb-8">Welcome Back!</h2>
                      <p id="lastP" className="grp"> To keep connected with us please login with your personal info.</p>
                      <button className="but focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent"  onClick={ e =>this.onSubmit(e)}>SIGN UP</button>
                  </div>
