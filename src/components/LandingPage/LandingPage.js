@@ -19,7 +19,7 @@ const LandingPage = () => {
             <ul className="flex flex-row">
                 
                 <li className="flex flex-row">
-                <a href="/signin"><button class="button_left" type="submit" name="button">SIGNUP</button></a>              
+                <a href="/signup"><button class="button_left" type="submit" name="button">SIGNUP</button></a>              
                 </li>
                 <li>
                 <a href="/signin"><button class="button_right" type="submit" name="button">SIGNIN</button></a>
