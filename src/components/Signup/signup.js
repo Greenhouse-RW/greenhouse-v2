@@ -23,12 +23,12 @@ const Signup = () => {
 
             <div className="col-md-8 col-xs-12 col-sm-12 register_form">
                 
-                <form className="form-group">
+                <form className="form-group mt-20">
                     <div className="row">
                         <h1 className="md:ml-36 font-semibold">Create Account</h1>
                     </div>
                     {/* social media buttons */}
-                    <div className="row svg flex space-x-4  mt-4">
+                    {/* <div className="row svg flex space-x-4  mt-4">
                         <a href="https://www.facebook.com">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" className="flex-1 m-1" viewBox="0 0 24 24" fill="#6d736e">
                                 <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 
@@ -51,13 +51,13 @@ const Signup = () => {
                             0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/>
                             </svg>
                         </a>
-                    </div>
+                    </div> */}
                     
-                    <div className="row md:ml-20 mb-6">
+                    {/* <div className="row md:ml-20 mb-6">
                         <p className="mt-8 text-center">Or use your email for registration</p>
-                    </div>
+                    </div> */}
                     {/* Username input */}
-                    <div className="row md:ml-44 mb-3.5">
+                    <div className="row md:ml-44 mt-10 mb-3.5">
                     <input 
                         className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent"
                         type="text" 
