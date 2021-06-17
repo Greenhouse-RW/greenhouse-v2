@@ -56,6 +56,6 @@ textarea {
   transition: all 0.3s;
   margin-top: -4px;
 }
-[type="submit"]:hover {
-  background: #cc4949;
+.feed {
+  background: #36aa9b;
 }

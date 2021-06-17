@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "Auto-Green",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -10,7 +10,7 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "300x300"
     },
     {
       "src": "logo512.png",
