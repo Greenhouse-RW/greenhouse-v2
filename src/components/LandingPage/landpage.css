@@ -1,75 +1,62 @@
-body{
-    /* background-color: rgb(79,160, 131); */
-    font-family: 'Inter';
-}
-.home-icon{
-  margin-top: 15em;
-  margin-left: 40em;
-  position: absolute;
-}
-.nav-links{
-    margin-left: 70em;
+.image2 {
+  width: 100%;
+  height: 94%;
+  opacity: 0.75;
+  background-color: rgba(241, 247, 248, 0.288);
+  margin-top: 60px;
+  padding-right: 40px;
 }
 
-/* .signup:hover{
+.explain {
+  color: #656897;
+}
 
-} */
-
-/* Underline styles */
+/* body {
+  font-family: "Inter";
+}
+.nav-links {
+  margin-left: 70em;
+}
 a {
-    display: block;
-    position: relative;
-    padding: 0.1em 0;
-  }
-  
-  /* Fade in */
-  a::after {
-    content: '';
-    /* position: absolute; */
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0.1em;
-    background-color: rgb(255, 255, 255);
-    opacity: 0;
-    transition: opacity 300ms, transform 300ms;
-  }
-
-
+  display: block;
+  position: relative;
+  padding: 0.1em 0;
+}
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: rgb(79, 160, 131);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
 a:hover::after,
 a:focus::after {
   opacity: 1;
   transform: translate3d(0, 0.2em, 0);
 }
-
-
-/* Slide in */
 li:nth-child(1) a {
-    overflow: hidden;
-  }
-  
-  li:nth-child(1) a::after {
-    opacity:1;
-    transform: translate3d(-100%, 0, 0);
-  }
-  
-  li:nth-child(1) a:hover::after,
-  li:nth-child(1) a:focus::after{
-    transform: translate3d(0, 0, 0);
-  }
-
-
-/* Slide in */
+  overflow: hidden;
+}
+li:nth-child(1) a::after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+li:nth-child(1) a:hover::after,
+li:nth-child(1) a:focus::after {
+  transform: translate3d(0, 0, 0);
+}
 li:nth-child(2) a {
   overflow: hidden;
 }
-
 li:nth-child(2) a::after {
-  opacity:1;
+  opacity: 1;
   transform: translate3d(-100%, 0, 0);
 }
-
 li:nth-child(2) a:hover::after,
-li:nth-child(2) a:focus::after{
+li:nth-child(2) a:focus::after {
   transform: translate3d(0, 0, 0);
-}
+} */

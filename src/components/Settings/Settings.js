@@ -57,8 +57,6 @@ const Settings = () => {
             <a href="#"><button class="button_left mb-8" type="submit" name="button">Save Changes</button></a>
           <a href="#"><button class="button_right mb-8" type="cancel" name="button">Cancel</button></a>
             </form>
-            
-          
         
         </div>
     )

@@ -9,45 +9,56 @@ import { Data } from "./components/EnvironmentData/Data";
 import Signin from "./components/Signin/Signin";
 import Condition from "./components/Env_conditions/Conditions"
 import Signup from './components/Signup/signup';
-import Support from './components/Support/Support';
 import Settings from './components/Settings/Settings'
 import LandingPage from './components/LandingPage/LandingPage';
+import Feedback from './Feedback/Feedback';
+import Support from './components/Support/Support';
 
 
 function App() {
   return (
     <div className="wrapper relative">
-      <BrowserRouter>
-        <Navbar />   
+      <BrowserRouter> 
       
         <Switch>
-        <Route path="/settings">
-            <Settings />
-          </Route>
-          <Route path="/support">
+        <Route path="/faq">
             <Support />
           </Route>
+        <Route path="/settings">
+        <Navbar /> 
+            <Settings />
+          </Route>
+          <Route path="/feedback">
+          <Navbar /> 
+            <Feedback />
+          </Route>
         <Route path="/condition">
-        <Condition />
+        <Navbar /> 
+        <Condition /> 
         </Route>
         <Route path="/signup">
-          <Signup/>
+          <Signup/>  
           </Route>
         <Route path="/signin">
-          <Signin  />
+          <Signin  /> 
           </Route>
           <Route path="/calendar">
-            <Main />
+          <Navbar /> 
+            <Main /> 
           </Route>
           <Route path="/control">
-            <Data />
+          <Navbar /> 
+            <Data /> 
+          </Route>
+          <Route path="/home">
+          <Navbar /> 
+          <Homepage /> 
           </Route>
           <Route path="/">
-          <Homepage/>
+            <LandingPage />
           </Route>
         </Switch>
       </BrowserRouter>
-      {/* <LandingPage/> */}
     </div>
   );
 }
