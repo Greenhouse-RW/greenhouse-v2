@@ -9,15 +9,15 @@ function Condition() {
       <div className="flex w-full space-x-10 justify-center">
       <div className=" pt-16 mt-2 w-2/5">
              {/* for row */}
-        <div class = "ml-3 font-bold text-md " > SET THE VALUE OF PLANT’ S BETTER HEALTH </div>
+        <div class = "ml-3 font-bold text-xl text-green-800" > SET VALUES FOR A PLANT'S HEALTH. </div>
 
         <div class = " flex flex-col space-y-6  relative" >
         
         <div className = "flex space-x-6 relative mt-10" >
                 <div className = "w-12 mt-2 mr-3" > Temperature: </div>
-                <div> <input class="h-8 ml-5 shadow flex w-16 mt-2"/></div>
+                <div> <input class="h-8 ml-5 shadow flex w-16 mt-2 p-4 text-md text-color-grey"/></div>
                 <div>-</div>
-                <div ><input class = "h-8 shadow flex w-16  mt-2" />  </div>
+                <div ><input class = "h-8 shadow flex w-16  mt-2 p-4" />  </div>
                 <div><Button/></div>
         
             </div>
@@ -71,11 +71,11 @@ function Condition() {
         
 <div className="mt-16 w2/5 text-center relative">
 
-  <div class = "ml-3 font-bold text-md " > RECORDS OF CLIMATIC CONDITION. </div>
+  <div class = "ml-3 font-bold text-xl" > RECORDS OF CLIMATIC CONDITION. </div>
         <div class = " flex flex-col space-y-6  relative" >
             <div className = "flex space-x-6 relative mt-10" >
                 <div className = "w-12 mt-2 mr-8" > Temperature: </div>
-                <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
+                <div class="h-8 flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
                 <div>-</div>
                 <div class="h-8 shadow flex w-16 h-10 justify-center align-center py-2.5 px-7 text-sm text-black">34  </div>
                 <div>&#176;C</div>
