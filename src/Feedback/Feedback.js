@@ -9,7 +9,7 @@ export default function feedback() {
 <div className="flex justify-between">
 
 <div>
-    <form>      
+    <form className="feedback-form">      
   <input name="name" type="text" class="feedback-input" placeholder="Name" />   
   <input name="email" type="text" class="feedback-input" placeholder="Email" />
   <textarea name="text" class="feedback-input" placeholder="Feedback"></textarea>
@@ -86,14 +86,6 @@ export default function feedback() {
 </div>
 </li>
 
-<li class="nav-dots">
-<label for="img-1" class="nav-dot" id="img-dot-1"></label>
-<label for="img-2" class="nav-dot" id="img-dot-2"></label>
-<label for="img-3" class="nav-dot" id="img-dot-3"></label>
-<label for="img-4" class="nav-dot" id="img-dot-4"></label>
-<label for="img-5" class="nav-dot" id="img-dot-5"></label>
-<label for="img-6" class="nav-dot" id="img-dot-6"></label>
-</li>
 </ul>
     </div>
 
