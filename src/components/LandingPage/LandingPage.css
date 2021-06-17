@@ -1,7 +1,5 @@
 .slides {
   padding: 0;
-  width: 609px;
-  height: 594px;
   display: block;
   margin: 0 auto;
   position: relative;
@@ -27,19 +25,13 @@
 .slide {
   top: 0;
   opacity: 0;
-  width: 609px;
-  height: 420px;
+  width: 40vw;
   display: block;
   position: absolute;
 
   transform: scale(0);
 
   transition: all 0.7s ease-in-out;
-}
-
-.slide img {
-  width: 100%;
-  height: 141.4%;
 }
 
 .nav label {
