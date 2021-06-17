@@ -52,39 +52,6 @@ const LandingPage = () => {
 		</div>
     </li>
 
-    {/* <input type="radio" name="radio-btn" id="img-3" /> */}
-    {/* <li class="slide-container">
-        <div class="slide">
-          <img src="https://images.unsplash.com/photo-1533322069166-aa4d608459df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM3fHxncmVlbmhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-        </div>
-		<div class="nav">
-			<label for="img-2" class="prev">&#x2039;</label>
-			<label for="img-4" class="next">&#x203a;</label>
-		</div>
-    </li> */}
-
-    {/* <input type="radio" name="radio-btn" id="img-4" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="https://images.unsplash.com/photo-1533322069166-aa4d608459df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM3fHxncmVlbmhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-        </div>
-		<div class="nav">
-			<label for="img-3" class="prev">&#x2039;</label>
-			<label for="img-5" class="next">&#x203a;</label>
-		</div>
-    </li> */}
-
-    {/* <input type="radio" name="radio-btn" id="img-5" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://farm9.staticflickr.com/8055/8098750623_66292a35c0_z.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-4" class="prev">&#x2039;</label>
-			<label for="img-6" class="next">&#x203a;</label>
-		</div>
-    </li> */}
-
     <input type="radio" name="radio-btn" id="img-6" />
     <li class="slide-container">
         <div class="slide">
