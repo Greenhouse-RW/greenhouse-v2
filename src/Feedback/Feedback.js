@@ -7,24 +7,6 @@ export default function feedback() {
               <div>
 
 <div className="flex justify-between">
-    
-    {/* <div className="more ml-40">
-     <h1 className="text-6xl font-bold tracking-wider mt-24 text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">WELCOME TO <br></br>AUTO-GREEN</h1>
-     <p className="explain text-lg leading-relaxed mt-8 tracking-wide">AUTO-GREEN is an automated greenhouse that <br></br>  involves the automatic monitoring and controlling of <br></br> climatic  parameters which directly or indirectly govern <br></br> the plant growth and increase the productivity.</p>
-    <p className="explain text-lg leading-relaxed tracking-wide">Enjoy watching your plant grow healthy and productive <br></br> in the simplest way by interacting with our application.</p>
-    <div className="flex flex-row nav-links mt-8">
-    <ul className="flex flex-row">
-        
-        <li className="flex flex-row">
-        <a href="/signin"><button class="button_left" type="submit" name="button">JOIN US</button></a>              
-        </li>
-        <li>
-        <a href="/faq"><button class="button_right" type="submit" name="button">EXPLORE</button></a>
-        </li>
-    </ul>
-
-    </div>
-    </div> */}
 
 <div>
     <form>      
@@ -37,9 +19,6 @@ export default function feedback() {
   
 
     <div className="svg-container">
-    {/* <img src={svgtwo} alt="signup icon" className="image1 mt-10 transform skew-y-6 transform rotate-45"></img>
-    <img src={svgone} alt="signup icon" className=" image2 transform rotate-45"></img> */}
-    {/* <img src={svgone} alt="signup icon" className="image2 h-screen"></img>  */}
     <ul class="slides">
 <input type="radio" name="radio-btn" id="img-1" checked />
 <li class="slide-container">
