@@ -1,5 +1,5 @@
 import React from 'react'
-import './support.css';
+import './feedback.css';
 
 export default function feedback() {
     return (
