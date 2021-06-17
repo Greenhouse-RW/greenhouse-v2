@@ -94,8 +94,8 @@ const Signup = () => {
                         <button className="btn registerSubmit p-2">SIGN UP</button><br></br>
                     </div>
 
-                    <div className="flex md:ml-80 ml-12 mt-3">
-                    <Link className="text-lg cursor-pointer ml-44" to="/signup">Don't have an account? <span className="text-blue-400 ">Sign up</span></Link>
+                    <div className="flex md:ml-64 ml-12 mt-3">
+                    <Link className="text-lg cursor-pointer" to="/signin">Already have an account? <span className="text-blue-400 ">Sign in</span></Link>
                         {/* <svg className="ml-4 mt-0.5 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg> */}
                     </div>
                 </form>
