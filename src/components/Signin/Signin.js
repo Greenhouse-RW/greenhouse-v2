@@ -97,9 +97,8 @@ class Signin extends Component{
                 <div id="right" >
                  <img class="h-screen" src={leaves} alt="green" ></img>
                  <div className="centered grid justify-items-center">
-                     <h3 className="mb-8">Welcome Back!</h3>
+                     <h3 className="mb-6">Welcome Back!</h3>
                      <p id="lastP" className="grp"> To keep connected with us please login with your personal info.</p>
-                     {/* <a href="/signup"> <button className="but focus:outline-none focus:ring-2 focus:ring-green-700">SIGN UP</button> </a> */}
                  </div>
                 </div>
 
