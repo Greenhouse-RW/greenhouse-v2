@@ -87,8 +87,6 @@ class Signin extends Component{
 
                  <div className="">
                 <Link className="text-lg cursor-pointer ml-44" to="/signup">Don't have an account? <span className="text-blue-400 ">Sign up</span></Link>
-
-                {/* <svg className="ml-4 mt-0.5 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg> */}
                 
                 </div>
                 <a className="text-base ml-40 cursor-pointer text-blue-400">forgot your password?</a><br></br>
@@ -99,7 +97,7 @@ class Signin extends Component{
                 <div id="right" >
                  <img class="h-screen" src={leaves} alt="green" ></img>
                  <div className="centered grid justify-items-center">
-                     <h2 className="font-black text-5xl mb-8">Welcome Back!</h2>
+                     <h2 className="font-black text-5xl mb-8 text-blue">Welcome Back!</h2>
                      <p id="lastP" className="grp"> To keep connected with us please login with your personal info.</p>
                      <button className="but focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent"  onClick={ e =>this.onSubmit(e)}>SIGN UP</button>
                  </div>
