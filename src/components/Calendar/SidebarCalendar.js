@@ -9,8 +9,8 @@ export default function SidebarCalendar() {
         <img src={bgPic} alt="bg-back" />
       </div>
       <div className="MySideCale h-screen pt-24 fixed overflow-auto">
-        <h1 className="recorded text-xl text-white text-center">
-          Recorded Values
+        <h1 className="recorded text-xl text-white font-bold text-center">
+          RECORDED VALUES.
         </h1>
         <hr className="border-black opacity-20 mt-8" />
 

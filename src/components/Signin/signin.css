@@ -18,14 +18,14 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  color: rgba(51, 47, 47, 0.753);
+  color: #5d5f81;
 }
 .svg {
   margin-left: 18rem;
 }
-#lastP {
+/* #lastP {
   margin-left: 2em;
-}
+} */
 .signinform button {
   width: 180px;
   height: 45px;
@@ -43,11 +43,9 @@ a {
 }
 
 .signinform input {
-  border: 0px;
   width: 80%;
   height: 45px;
-  background: rgba(72, 129, 108, 0.28);
-
+  /* background: rgba(72, 129, 108, 0.28); */
   padding: 5px 2px 5px 25px;
   outline: 0;
   font-family: Nunito;
@@ -82,31 +80,31 @@ a {
     width:40%;
     float:left;
   } */
-
 .signinform .centered {
   width: 400px;
   position: absolute;
   top: 45%;
-  left: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .signinform .centered button {
-  margin-left: 7em;
+  margin-left: 2em;
   margin-top: 4em;
-  background-color: #64c2a0c2;
+  background-color: #5fc09cc2;
   /* width:275px;
       padding-right:90px; */
 }
 
 .signinform h3 {
-  margin-left: 3em;
+  /* margin-left: 3em;
   margin-bottom: 2em;
   font-family: Nunito;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal; */
+  font-weight: 800;
   color: #fffafa;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .signinform .grp {
@@ -114,7 +112,7 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  color: rgba(255, 250, 250, 0.61);
+  color: rgba(250, 248, 248, 0.61);
 }
 
 .signinform .but {

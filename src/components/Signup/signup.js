@@ -16,19 +16,19 @@ const Signup = () => {
 
     return (
     <div className="flex registerForm h-screen">
-            <div className="col-md-4 imgback text-center p-20">
-                <h3 className="font-semibold mb-3">Welcome To Greenhouse</h3>
-                <p>Enter your personal details to <br/> start your journey with us</p>
+            <div className="col-md-4 imgback  p-10">
+                <h3 className="font-semibold mb-6">WELCOME TO GREENHOUSE</h3>
+                <p className="text-center">Enter your personal details to start  <br/> your journey with us</p>
             </div>
 
             <div className="col-md-8 col-xs-12 col-sm-12 register_form">
                 
-                <form className="form-group">
+                <form className="form-group mt-20">
                     <div className="row">
                         <h1 className="md:ml-36 font-semibold">Create Account</h1>
                     </div>
                     {/* social media buttons */}
-                    <div className="row svg flex space-x-4  mt-4">
+                    {/* <div className="row svg flex space-x-4  mt-4">
                         <a href="https://www.facebook.com">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" className="flex-1 m-1" viewBox="0 0 24 24" fill="#6d736e">
                                 <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 
@@ -51,15 +51,15 @@ const Signup = () => {
                             0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/>
                             </svg>
                         </a>
-                    </div>
+                    </div> */}
                     
-                    <div className="row md:ml-20 mb-6">
+                    {/* <div className="row md:ml-20 mb-6">
                         <p className="mt-8 text-center">Or use your email for registration</p>
-                    </div>
+                    </div> */}
                     {/* Username input */}
-                    <div className="row md:ml-44 mb-3.5">
+                    <div className="row md:ml-44 mt-10 mb-3.5">
                     <input 
-                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent"
+                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                         type="text" 
                         placeholder="Username"
                         name="username"
@@ -70,7 +70,7 @@ const Signup = () => {
                     {/* Email input */}
                     <div className="row md:ml-44 mb-3.5">
                     <input 
-                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent"
+                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                         type="text" 
                         placeholder="Email"
                         name="email" 
@@ -81,7 +81,7 @@ const Signup = () => {
                     {/* Password input */}
                     <div className="row md:ml-44 mb-3.5">
                     <input 
-                        className="ml-40 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                        className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
                         type="password" 
                         placeholder="Password"
                         name="password"
@@ -94,9 +94,9 @@ const Signup = () => {
                         <button className="btn registerSubmit p-2">SIGN UP</button><br></br>
                     </div>
 
-                    <div className="flex md:ml-80 ml-12 mt-3">
-                        <Link to="/signin" className="text-lg text-center cursor-pointer">Already a member</Link>
-                        <svg className="ml-4 mt-0.5 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg>
+                    <div className="flex md:ml-64 ml-12 mt-3">
+                    <Link className="text-lg cursor-pointer" to="/signin">Already have an account? <span className="text-blue-400 ">Sign in</span></Link>
+                        {/* <svg className="ml-4 mt-0.5 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg> */}
                     </div>
                 </form>
             </div>

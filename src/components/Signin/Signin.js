@@ -41,9 +41,9 @@ class Signin extends Component{
 
                 <div id="left" >
                  
-                <h1 class="ml-44 font-semibold">Ready! Sign in</h1>
+                <h1 class="ml-44 mt-10 font-semibold">Ready! Login</h1>
 
-                <div class="svg flex space-x-4  mt-4">
+                {/* <div class="svg flex space-x-4  mt-4">
                 <a href="https://www.facebook.com">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="flex-1 m-1" viewBox="0 0 24 24" fill="#6d736e">
                     <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 
@@ -66,10 +66,10 @@ class Signin extends Component{
                      0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/>
                      </svg>
                 </a>
-                </div>
+                </div> */}
 
-                <p className="mt-8 ml-48">or use your email account : </p>
-                <input className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-200 focus:border-transparent" placeholder="Email" name="email" type="email"
+                {/* <p className="mt-8 ml-48">or use your email account : </p> */}
+                <input className="ml-40 mb-6 mt-8 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Email" name="email" type="email"
                 value={this.state.email}
                 onChange={e => this.change(e)}
                 required /><br></br>
@@ -79,29 +79,26 @@ class Signin extends Component{
                  onChange={e =>this.setState({email:e.target.value})}
                  */}
 
-                <input className="ml-40 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Password" name="password" type="password" 
+                <input className="ml-40 mb-6 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Password" name="password" type="password" 
                 // value={this.state.password}
                 onChange={e =>this.change(e)}   
                 required/>
-
-                <a className="text-base ml-40 cursor-pointer text-blue-400">forgot your password?</a><br></br>
                 <button className="focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">SIGN IN</button><br></br>
 
-                 <div className="flex ml-7">
-                <Link className="text-lg ml-64 cursor-pointer" to="/signup">create account</Link>
-                
-                <svg className="ml-4 mt-0.5 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg>
+                 <div className="">
+                <Link className="text-lg cursor-pointer ml-44" to="/signup">Don't have an account? <span className="text-blue-400 ">Sign up</span></Link>
                 
                 </div>
+                <a className="text-lg ml-40 cursor-pointer text-blue-400">forgot your password?</a><br></br>
+
                 </div>
 
 
                 <div id="right" >
                  <img class="h-screen" src={leaves} alt="green" ></img>
-                 <div className="centered">
-                     <h3 className="font-semibold">Welcome Back!</h3>
+                 <div className="centered grid justify-items-center">
+                     <h3 className="mb-6">Welcome Back!</h3>
                      <p id="lastP" className="grp"> To keep connected with us please login with your personal info.</p>
-                     <button className="but focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent"  onClick={ e =>this.onSubmit(e)}>SING UP</button>
                  </div>
                 </div>
 
