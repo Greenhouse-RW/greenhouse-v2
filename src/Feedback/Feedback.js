@@ -3,8 +3,10 @@ import './feedback.css'
 
 export default function feedback() {
     return (
-        <div>
-            
+        <div className="feedback">
+            <div>
+                
+            </div>
         </div>
         
     )
