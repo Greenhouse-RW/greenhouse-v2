@@ -1,7 +1,6 @@
 import React from 'react';
 import './landpage.css';
 import svgone from '../../images/plant.png';
-// import svgtwo from '../../images/boom.svg';
 // import home from '../../images/home.svg';
 const LandingPage = () => {
     return ( 
